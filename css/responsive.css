@@ -1,0 +1,1712 @@
+@media only screen and (max-width: 1300px) {
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+	width:auto;
+}
+.time_sev {padding-left: 16px;}
+.img_serv {margin-right: 23px;}
+
+.success_work {width: 68%;padding-right: 8px;}
+.img_proj {margin-right: 28px;}
+.descri {margin-top: 57px;}
+.img_rect {margin-right: 37px;}
+.loca {letter-spacing: 0px;padding-left: 14px;}
+.email {width: 90%;}
+.banner_slider
+{
+	height:unset;
+}
+.rights {left: 13px;}
+.chart-container {width: 582px;}
+
+.img_proj {
+    margin-right: 36px;
+}
+
+.ourproject_ser {
+    height: 338px;
+}
+.project {
+    margin: 33px 0px;
+}
+/****newspage***/
+.template_news .img_rect {margin-right: 28px;}
+/*****contantus***/
+.getintouch {
+    margin-right: 0px;padding-right: 0px;
+}
+.contactinfo {
+    width: 50%;
+    padding-left: 0px;
+}
+.panel-default>.panel-heading {margin-bottom: 12px;}
+
+
+
+/***mutualfunds***/
+.contentfund_blog {margin-right: 10px;}
+.muntual_details {text-align: justify; }
+.aboutcontentfund_blog {
+    width: 63.666%;
+    margin-left: 18px;
+}
+/***project***/
+.project_descrips {padding-left: 39px;}
+
+
+/****sidebar***/
+.template_sdebarmutual .contentfund_blog {
+  
+    margin-right: 8px;
+    padding-left: 15px;
+}
+.template_sdebarmutual .aboutcontentfund_img {width: 42.33%;}
+/****servicepage****/
+
+.business {margin-right: 23px;}
+.saving_img {margin-right: 13px;}
+.services_best, .services_bests {
+    
+    height: 269px;
+    padding: 7px 0px;
+}
+
+.content_best {
+    max-width: 224px;
+    margin: 0px auto;
+}
+.saving_imgs {margin-right: 0px;}
+.services_best:before {margin-right: -2px;}
+ .img_servs {
+    height: unset;
+}  
+
+/****blogdetails***/
+.template_blog div#leftsidebar {
+    width: 24.1%;
+    padding-right: 0px;
+}
+.template_blog .muntual_details {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    line-height: 19px;
+}
+.mutual_detailscon {
+    font-size: 15px;
+    line-height: 19px;
+}
+.admin_img {margin-right: 22px;}
+#sharefacebook_icon {left: 175px;}
+#sharegoogle-plus_icon {left: 188px;}
+#shareinstagram_icon {left: 219px;}
+#sharetwitter_icon {left: 249px;}
+#shareprinest_icon {left: 275px;}
+.admin_blogcomment {
+    padding: 19px 20px;
+    margin-left: 10px;
+}
+.template_blog .faq_3 {margin-top: 11px;}
+.template_blog .faq {padding-left: 12px;}
+.secret {
+   
+    padding-left: 9px;
+    margin-top: 12px;
+    margin-left: 11px;
+}
+li#share {left: 70px;}
+/*****aboutus**/
+.ourvision {padding-left: 11px;}
+.team_img a:before {right: 0px;}
+.img_team {margin-right: 7px;}
+/****customerrelation***/
+.template_customer .contentfund_img {margin-right: 29px;}
+.template_customer .muntual_details {line-height: 23px;}
+/****sidebar_customer***/
+.template_sidebarcustomer .contentfund_img {
+      padding-left: 0px;
+    margin-right: 0px;
+}
+.template_sidebarcustomer .project_descr,.template_sidebarcustomer .challege {
+    padding-left: 0px;
+}
+.template_sidebarcustomer .result {
+    padding-left: 0px;
+}
+.about_remain {padding-left: 0px;}
+.template_sidebarcustomer .left_project {margin-right: 0px;}
+
+}
+/*****************************************************max-width:1200px*************************************************/
+@media only screen and (max-width: 1200px) {
+	.socialmedia_icons {width: 38%;}
+	.contact {width: 62%;}
+.callus {margin-right: 13px;}
+.navgation {margin-bottom: 0px;}
+.logo {margin-top: 27px;}
+ul.nav.navbar-nav.navbar-right {margin-top: 22px;}
+.plan {
+    font-size: 49px;
+    line-height: 64px;max-width: 596px;
+}
+.item.active {height: unset;}
+.banner_text {top: 25%;}
+.cont {
+    margin-top: 23px;
+    width: 55%;
+    padding-left: 0px;
+}
+.cont_head {
+        margin-bottom: 5px;
+    margin-top: 13px;margin-top: 0px;
+}
+.space {margin: 40px auto;}
+.project {margin: 39px 0px;}
+.conte_para {
+  
+    line-height: 25px;
+    text-align: justify;
+}
+.welcome_bannner {
+    background-image: url(../image/welcome-image.png);
+    width: 392px;
+    height: 392px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    float: left;
+    border: 1px solid #333333;
+   
+}
+.srvic_fin {
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+.time_sev {padding-left: 10px;}
+.team_sev {padding-left: 8px;}
+.services {margin-top: 10px;}
+.space {margin: 29px auto;}
+.img_serv {
+    margin-right: 20px;
+    margin-bottom: 24px;
+}
+.banners_sev {margin-top: 6px;}
+.success_work {
+    width: 82%;
+    padding-right: 0px;
+}
+form.form-horizontal {
+    max-width: 580px;
+}
+.form-group {
+    margin-bottom: 33px;
+}
+.getconst {
+    background-image: url(../image/pic-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 622px;
+    height: 297px;
+    position: absolute;
+    top: 73px;
+    left: 1px;
+}
+.get_head {
+    margin-bottom: 31px;
+    padding-left: 0px;
+}
+.from-groups {
+    margin-bottom: 33px;
+}
+.histr {margin-top: 8px}
+.by_admin {
+    margin-top: 11px;
+    margin-left: 0px;
+}
+.finan {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 20px;
+   
+    padding-left: 0px;
+    word-spacing: 0px;
+}
+.name_input {width: 50%;}
+.email_input {width: 48%;}
+
+canvas.chartjs-render-monitor {height: 344px !important;}
+.charts {width: 43%;}
+.chart-container {
+    width: 405px;
+    margin-top: 60px;
+}
+.mychart {margin-top: 0px;}
+.yearof.success {margin-bottom: 30px;}
+
+.ourproject_ser {
+    margin-top: 18px;
+    height: 286px;
+}
+.img_proj {margin-right: 34.5px;}
+.project {margin: 37px 0px;}
+.project_head {
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    word-spacing: 0px;
+}
+.des_cont {
+    top: 83%;
+}
+.project_cont {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+.descri {
+    margin-top: 0px;
+  top: 45px;
+}
+
+.img_rect {margin-right: 34.5px;}
+.getfree {margin-bottom: 33px;}
+.rec_post {margin-top: 9px;}
+.footer {margin-top: 23px;}
+
+.nav_item {font-size: 14px;}
+.rights {
+      left: 0px;
+    width: 50%;
+}
+
+
+.ourproject_slick.slick-initialized.slick-slider {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.recentnews_slick.slick-initialized.slick-slider {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.navi_heads {
+    width: 53%;
+}
+.contus {
+    float: left;
+    width: 46.5%;
+    padding-left: 0px;
+}
+/*****newspage****/
+.template_news .img_rect {
+       margin-right: 23px;
+    margin-bottom: 18px;
+}
+.template_news .footer {margin-top: 0px;}
+/*** contantus**/
+
+
+.template_contact .form-control.name {width: 97%;}
+.template_contact .message {width: 97%}
+.join {margin-top: 0px;}
+
+.template_contact .message {width: 98%;}
+.getintouch {padding-right: 0px;}
+.template_contact .message {padding-right: 0px;}
+.panel-group {
+    margin-bottom: 0px;
+}
+
+
+
+/***mutualfunds***/
+.mutual_det {margin-bottom: 6px;}
+.mutual_head{margin-bottom: 3px;}
+.investment {
+    text-align: center;
+    margin-top: 0;
+    padding-left: 0;
+    margin-left: 21px;
+}
+.faq {margin-top: 7px;}
+.aboutcontentfund_blog {
+    width: 64%;
+    margin-left: 10px;
+}
+.contentfund_benfits,.contentfund_benfits {
+    margin-top: 0px;
+} 
+.template_mutual .chart-container {height: 370px;}
+
+/****project***/
+.project_descrips {padding-left: 17px;}
+.project_images {padding-left: 34px;}
+.project_first, .project_second, .project_third {margin-bottom: 43px;}
+.project_descrip {margin-top: 0px;}
+.template_projec .pageation-blog {
+    margin-top: 0px;
+}
+.project_image a:before {right: 0px;}
+.project_images a:before {left: 34px;}
+
+
+/****sidebarmutual****/
+div#leftsidebar {padding-right: 11px;}
+.template_sdebarmutual .contentfund_blog {
+    margin-right: 7px;
+    padding-left: 0px;
+}
+.template_sdebarmutual .chart-container {
+    width: 684px;
+     height: 470px;
+}
+.broucher_content {
+    max-width: 188px;line-height: 18px;
+}
+.help_content {
+    max-width: 181px;
+    ne-height: 18px;
+}
+.download {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 16px;
+  
+    margin-top: 8px;
+}
+
+/****servicepage*****/
+.business {margin-right: 18px;}
+.business_head{   
+    text-align: center;
+    padding-left: 0; 
+}
+
+.content {  
+    text-align: center;
+    margin: 0px auto;
+}
+.read_buttons {
+    padding-left: 0px;
+    text-align: center;
+}
+.saving_img {margin-right: 9px;}
+ .best_head {font-size: 16px;}
+ .content_best {
+    max-width: 100%px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+.viewdetails {
+    margin-top: 0px;
+    letter-spacing: 0px;
+}
+.view_buttons {padding-left: 0px;}
+.saving_invesment {padding-left: 6px;}
+.services_best, .services_bests {
+    height: 100%;
+    padding: 0px 0px;
+}
+.services_best:before, .services_bests:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 42px;
+    right: 94%;
+}
+.services_bests:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 42px;
+    left: 100%;
+margin-left: -14px;
+}
+.saving_imgs { margin-right: 0px;}
+.saving_invesments {
+    padding-left: 0;
+    padding-right: 4px;
+}
+/***blogpage*****/
+
+.template_blog .contentfund_img {
+    width: 100%;
+    margin-left: 0px;
+    /* margin: 0 auto; */
+    max-width: 466px;
+    margin: 0 auto;
+    float: none;
+}
+.template_blog .contentfund_blog {
+    width: 100%;
+    margin-right: 0px;
+    float: none;
+    padding-left: 14px;
+    margin-top: 20px;
+}
+.admin_img {margin-right: 17px;}
+.secret {padding-left: 0px;}
+.mutual_detailscon {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 666px;
+}
+.tag { padding-left: 12px;}
+.template_blog .share {width: 39%;}
+.clientcomment_content {
+    width: 85.5%;
+    padding-left: 7px;
+}
+.clients_img {
+    width: 14%;
+    margin-right: 0px;
+    padding-left: 15px;
+    margin-left: 0px;
+}
+.replyadmin_img {
+    width: 14%;
+    margin-right: 0px;
+}
+.formtext {
+    margin-right: 13px;
+    width: 48%;
+}
+.template_blog .emailtext { padding-left: 9px;}
+/*****aboutus***/
+.team_img a:before {right: 14px;}
+.template_about .supp_sev {
+     padding-left: 0px;
+    padding-left: 29px;
+}
+.frame_line {
+    width: 316px;
+    height: 292px;
+    border: 6px solid #b9b9b9;
+    position: absolute;
+    top: 66px;
+    left: 50px;
+    margin-top: 29px;
+}
+.aboutus_content {
+    width: 55%;
+    padding-left: 7px;
+}
+.aboutus_imge {width: 44%;}
+.template_about .srvic_fin {
+    font-size: 15px;
+letter-spacing: 0px;}
+.template_about .team_sev {padding-left: 0px;}
+.template_about .time_sev {padding-left: 0px;}
+.aboutimgs {
+    position: absolute;
+    right: 3px;
+}
+.mission { margin-top: 45px;}
+.about {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.aboutus {margin-bottom: 0px;}
+.misssion_section {margin: 56px auto;}
+
+.progress-title, .progress-value {line-height: 17px;}
+  .people__details {line-height: 23px;}
+  .aubout_people {width: 50%;}
+  .about_content {
+    width: 50%;
+    padding-left: 7px;
+    margin-top: 0px;
+}
+.people_choose {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.people__details {
+    line-height: 20px;
+}
+.empty_content {
+    margin-bottom: 15.6%;
+}
+.client_img {
+    position: relative;
+    top: 0px;
+    left: 26px;
+    width: 92px;
+}
+/****customerrelation***/
+.template_customer .muntual_details {line-height: 18px;}
+.template_customer .contentfund_img {margin-right: 25px;}
+.template_customer .mutual_det {margin-bottom: 9px;}
+.template_customer .mutual_head {margin-bottom: 2px;}
+.template_customer .topic, .template_customer .text_conteny {
+    font-size: 17px;
+    letter-spacing: 0px;padding-left: 15px;
+}
+.template_customer .side_head {
+    font-size: 18px;
+    letter-spacing: 0px;
+      text-align: center;
+    padding-left: 0px;
+}
+.we_did {
+   
+    padding-left: 9px;
+}
+.benfitsmuntual_details {
+   
+    line-height: 18px;
+    letter-spacing: 0px;
+    margin-top: 2px;
+}
+/****sidebar_customer***/
+.template_sidebarcustomer .contentfund_img {width:100%}
+.template_sidebarcustomer .contentfund_blog {width: 100%;}
+.template_sidebarcustomer .left_project {width: 100%;}
+.template_sidebarcustomer .topic {
+    padding-left: 0px;
+      text-align: center;
+}
+.template_sidebarcustomer .we_did {width: 100%}
+.template_sidebarcustomer .challege_section {margin-right: 18px;}
+.template_sidebarcustomer .mutualfund_img{margin:0 auto;}
+}
+
+/*****************************************************max-width:992px*************************************************/
+@media only screen and (max-width: 992px) {
+	.des_cont {
+    top: 89%;
+}
+	.contact {width: 66%;}
+	.socialmedia_icons {width: 30%;}
+	.nav>li>a {
+    padding: 9px 3px;
+}
+	.banner_text {top: 25%;	}
+	.ourmain.service {margin-top: 10px;}
+	.plan {font-size: 41px;line-height: 49px;
+    max-width: 477px;}	
+	.btn-texts {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 0px;
+   padding: 22px 20px;
+   
+}
+.form-group {margin-bottom: 33px;}
+.ourproject_ser {
+    margin-top: 18px;
+    height: 283px;
+}
+	.learnmore {margin-top: 14px;}
+	.conte_para {font-size: 15px;text-align: justify;}
+	.finance_image {width:100%}
+	.cont {width: 100%;}
+	.welcome_bannner {
+    background-image: url(../image/welcome-image.png);
+   width: 350px;
+    height: 350px;
+    position: unset;
+    max-width: 500px;
+    margin: 0 auto;
+    float: unset;
+}
+.welcome_section {
+    margin-top: 20px;
+}
+	.img_serv:nth-child(2n+2) {
+    float: right;
+    margin-right: 0px;
+}
+	.img_serv {
+    margin-right: 0px;
+    width: 49%;    margin-bottom: 21px;
+}
+.img_sevs {margin-bottom: 21px;}
+	.services_main a:before {bottom: 0px;}
+	.sucess_head {font-size: 24px;}
+	.success_work { padding-right: 0px;
+    width: 100%;
+}
+.chart-container {
+    width: 100%;
+   margin-top: 10px;
+}
+.mychart {
+    position: relative;
+    top: 0px;
+}
+.charts {
+    width: 100%;
+	float:left;
+}
+	.project {margin: 52px 0px;}
+.img_proj {
+    margin-right: 6px;
+    width: 32.71%;
+}
+.descri {
+    top: 48px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.project_head {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 19px;
+}
+.project_cont {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 14px;
+}
+.constulation {
+    position: relative;
+      width: 100%;
+}
+
+.get_head {
+    font-size: 29px;
+    letter-spacing: 1px;
+    line-height: 76px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    padding-left: 6px;
+}
+
+.getconst {
+    background-image: url(../image/pic-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 720px;
+  height: 292px;
+    position: relative;
+    top: 10px;
+}
+.finan {
+    font-size: 14px;
+     margin-bottom: 0px;
+}
+.img_rect { margin-right: 25px;}
+	.right_footer {width: 100%;}
+.left_footer {width: 100%;}
+.footer_blog {margin-top: 10px;}
+
+.footer_item {margin-top: 6px;}
+.subcribe {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 18px;
+   
+    margin-top: 0px;
+}
+ .footer {
+  height:508px;
+}
+.rights {
+    left: 0px;
+    width: 100%;
+}
+.footerright {text-align: center;}
+.getfree {margin-top: 18px;}
+.navi_head {width: 50%;}
+.contus {width: 50%;}
+.form_free {
+     position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    max-width: 500px;
+    margin: 0 auto;
+	    float: unset;
+}
+/****newspage***/
+.template_news .img_rect:nth-child(3n+3) {
+    float: left;
+     margin-right: 18px;
+}
+	
+	.template_news .img_rect:nth-child(2n+2) {
+   
+    margin-right: 0px;
+   float: right;
+}
+.template_news .img_rect{ width: 48.71%;  margin-right: 18px;}
+.pageation-blog {margin-top: 0px;}
+
+.inner_banner {height: 188px;}
+.project_text {
+    margin: 0 auto;
+    position: relative;
+    top: 77px;
+    margin-top: 0px;
+}
+.template_news .footer {height: 508px;}
+
+/***contactus***/
+.address-info {
+    margin-top: 7px;
+    margin-left: 0px;
+}
+/***mutualfunds***/
+
+.contentfund_blog { width: 100%;    margin-right: 0px; }
+.contentfund_img {width: 100%;}
+.img-responsive.mutualfund_img{margin: 0 auto;}
+.aboutmuntual_details {text-indent: 3px;}
+.benfitsmuntual_details {margin-top: 2px;}
+.template_mutual .chart-container {
+    height: 368px;
+    width: 736px;
+}
+.aboutcontentfund_blog {
+    width: 100%;
+    margin-left: 0px;
+}
+.aboutcontentfund_img {
+    width: 100%;
+    margin-top: 0px;
+}
+.img-responsive.faqmutualfund_img{margin:0 auto;}
+.muntual_details {max-width: 100%;}
+
+/***projectpage***/
+.project_abstra {
+   
+    letter-spacing: 0px;
+    line-height: 22px;
+    
+    margin-top: 0px;
+    max-width: 100%; 
+    margin-bottom: 0px; 
+}
+.project_first, .project_second, .project_third {
+    margin-bottom: 30px;
+}
+
+.project_number {
+    font-size: 53px;
+    letter-spacing: 0px;
+    line-height: 0px;
+     margin-bottom: 0px;
+}
+
+.project_name {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    margin-top: 16px;
+}
+
+.btn_readmore {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 29px;
+     padding-left: 23px;
+    padding-right: 25px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-left: 0px;
+}
+/****sidebar mutualfunds***/
+
+div#leftsidebar {
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    background-color: #fff;
+    border: 2px solid #ffffff;
+    width: 40%;
+    margin-right: 0px;
+    padding-right: 0;
+    left: 0px;
+    display: none;
+}
+
+.template_sdebarmutual .mutual_fundsright, .template_sdebarmutual .contentfund_blog, .template_sdebarmutual .contentfund_img,
+.template_sdebarmutual .aboutcontentfund_img,.template_sdebarmutual .aboutcontentfund_blog
+{width: 100%;}
+.template_sdebarmutual p.aboutmuntual_details {
+    padding-left: 0px;width: 100%;
+}
+.template_sdebarmutual .faq {padding-left: 0px;}
+.template_sdebarmutual .benfitsmuntual_details {
+    padding-left: 0px;
+}
+.template_sdebarmutual .chart-container {
+    width: 550px;
+    height: 381px;
+}
+.template_sdebarmutual .mutual_funds {
+    margin-top: 8px;
+}
+.copyright {
+     left: 0;
+    right: 0;
+}
+.btn-text {
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: OpenSans-Semibold;
+    font-weight: bold;
+    text-align: center;
+        background-color: #003664;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    float: right;
+}
+.template_sdebarmutual .aboutcontentfund_img {
+  
+    padding-left: 0px;
+}
+
+
+/****servicepage***/
+
+.saving_blog {
+    width: 100%;
+    margin-bottom: 44px;
+}
+
+.content_best {
+    max-width: 100%px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 39px;
+    max-width: 314px;
+}
+.best_head {
+    padding-left: 0;
+    text-align: center;
+    font-size: 20px;
+}
+.viewdetails {
+    margin-top: 5px;
+    letter-spacing: 0px;
+    font-size: 15px;
+}
+.services_best:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 42px;
+    right: 96%;
+}
+ .template_service .des_cont {
+    font-size: 15px;
+    letter-spacing: 0px;
+    top: 85%;
+    padding: 6px 0px;
+} 
+
+.service_head {
+    font-size: 25px;
+    letter-spacing: 0px;
+}
+
+.business:nth-child(2n+2) {
+    float: right;
+    margin-right: 0px;
+	
+}
+
+.business {
+    margin-right: 6px;
+    width: 49%;
+}
+.btn-read {
+    font-size: 17px;
+}
+.content {
+    text-align: justify;
+    margin: 0px auto;
+    max-width: 300px;
+    font-size: 17px;
+}
+.business_head {
+    text-align: center;
+    padding-left: 0;
+    font-size: 20px;line-height: 42px;
+}
+.growth {
+    background-color: #f3f3f3;
+    padding: 0px;
+    margin-bottom: 14px;
+}
+/*****blogdetails*****/
+.template_blog .mutual_fundsright { width: 100%;}
+.template_blog .contentfund_blog, .template_blog .faq, .tag, .leavecommentsection {
+       padding-left: 0px;
+    
+}
+.template_blog  div#leftsidebar {
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    background-color: #fff;
+    border: 2px solid #ffffff;
+    width: 40%;
+    margin-right: 0px;
+    padding-right: 0;
+    left: 0px;
+    display: none;
+}
+.secret {margin-left: 0px;}
+.admin_blogcomment {margin-left: 0px;}
+/****aboutpage***/
+.aboutimgs {
+    position: relative;
+    right: 0px;
+    left: 8px;
+    top: 0;
+    margin-top: 0;
+    display: inline-block;
+}
+.aboutimg {
+    position: relative;
+    top: 0px;
+    display: inline-block;
+}
+.aboutus_imge {
+    width: 100%;
+    float: unset;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.frame_line{display:none;}
+.aboutus_content {
+    width: 100%;
+    padding-left: 0px;
+}
+.misssion_section { margin: 0px auto;}
+.mission {height: 524px;}
+.we_do {
+    width: 100%;
+    max-width: 434px;
+    float: unset;
+    margin: 0 auto;
+    text-align: center;
+}
+.wedo_content {
+    max-width: 100%;
+    etter-spacing: 0px;
+    line-height: 19px;
+   margin-top: 0px;
+}
+.wedo_heads {
+     letter-spacing: 0px;
+    margin-bottom: 0;
+}
+.people{margin: 0 auto;}
+.about_content {width: 100%;}
+.progress-title, .progress-value {
+    line-height: 38px;
+}
+.people__details{max-width:700px;}
+.team_img a:before {right: 0px;}
+.commentsection {
+    float: right;
+    width: 80%;
+}
+.empty_content {margin-bottom: 9.6%;}
+/***customer relationship***/
+.left_project {
+    width: 36.62%;
+    display: inline-block;
+}
+.we_did {
+    padding-left: 0px;
+    display: inline-block;
+    width: 63%;
+}
+.template_customer .contentfund_img {margin-right: 16px;}
+.template_customer .investment {
+   
+    padding-left: 0px;
+}
+/****sidebar_customer***/
+.template_sidebarcustomer .mutual_fundsright {width: 100%;}
+.template_sidebarcustomer .challege_section {margin-right: 16px;}
+
+}
+	
+	
+	
+	@media only screen and (max-width: 767px)
+	
+	{
+		
+		.contact {width: 50%;}
+		.socialmedia_icons {width: 50%;}
+		.callus {margin-right: 0px;font-size: 13px;}
+		.tellus{float:right;}
+		.socialmedia_icons{
+    text-align: center;
+    margin-top: 0px;
+}
+ul.socialmediaicons {float: unset;}
+ li.socialmediaicons:nth-child(5) {
+    float: unset;
+    margin: 0;
+}  
+.logo {
+    margin-top: 21px;
+    height: 41px;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 11px 10px;
+    margin-top: 14px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    background-color: #003664;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+.navbar-toggle .icon-bar {
+        border-radius: 11px;
+     background-color: #fe6600;
+}
+div#myNavbar {
+    padding: 0;
+    position: absolute;
+    z-index: 999;
+    background-color: #003664;
+  
+    width: 100%;
+    top: 67px;
+}
+
+.navbar-nav {margin: 0px 0px;}
+li.nav-item:nth-child(7) {float: unset;}
+ul.nav.navbar-nav.navbar-right {
+    margin-top: 0px;
+}
+.nav>li>a {padding: 10px 15px;}
+.nav-item {
+    font-size: 20px;
+    letter-spacing: 0px;
+   line-height: 36px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+}
+ .nav>li>a.nav-item:hover {background-color: #fe6600;}
+ .navbar-nav .open .dropdown-menu>li>a {padding:0px}
+	 .navbar-nav .open .dropdown-menu>li>a:hover {
+    background-image: none;background-color: #fe6600;
+}
+	
+	
+	.dropdown-menu>li>a {
+    display: block;
+    padding: 0px 0px;
+     clear: both; 
+    font-weight: 400;
+    line-height: 3.428571;
+    color: #fff;
+    white-space: nowrap;
+    height: 43px;
+    text-align: center;
+}
+	.plan {
+    font-size: 30px;
+    line-height: 45px;
+}
+.banner_text {
+    top: 16%;
+    
+}
+.btn-texts {
+    font-size: 14px;
+    padding: 19px 15px;
+}
+.welcome_bannner {
+     width: 400px;
+    height: 400px;
+}
+.items_sev {width: 49%;}
+.ourmainservice_list
+{
+	text-align: center;
+}
+.srvic_fin {
+    font-size: 16px;
+    text-align: center;
+}
+.ourserv_head {margin-bottom: 5px;}
+
+.readmore {margin-top: 50px;}
+.des_cont {
+    font-size: 17px;
+       top: 83%;
+  }
+
+  .ourproject_ser {
+    margin-top: 17px;
+    height: 262px;
+}
+
+.getconst {
+   
+    width: 434px;
+    height: 400px;margin: 0 auto;
+   }
+
+  form.form-horizontal {max-width: 350px;}
+  
+  .name_input {width: 100%;margin-bottom: 20px;}
+  .email_input {
+    width: 100%;
+    float: unset;margin-bottom: 20px;
+}
+.form-group {margin-bottom: 0px;}
+.mea {font-size: 17px;}
+.navi_head {
+    width: 100%;
+}
+
+.contus {
+    padding-left: 0px;
+    width: 100%;
+    float: left;
+}
+.footer {
+    height: 860px;
+}
+.img_rect {
+    margin-right: 0px;
+}
+.news_img {
+    margin: 0 auto;
+    max-width: 465px;
+}
+.constulation.padding_none.col-lg-8.col-sm-6.col-md-6.col-xs-12 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.team_sev {
+    padding-left: 19px;
+}.time_sev {
+    padding-left: 0px;
+}
+.teamwork {
+    padding-left: 31px;
+}
+.sucess_head {
+    font-size: 19px;
+    word-spacing: 1px;letter-spacing: 0.1px;
+}
+.yearofsuccess {
+        width: 285px;
+    height: 300px;
+}
+.success_work {
+     top: 49px;
+      margin-top: 0px;
+}
+.project_cont {
+    font-size: 14px;
+}
+
+.project_head {
+    font-size: 16px;
+}
+.calus,.malus {display: none;}
+
+/*****newspage*****/
+.project_text {
+    margin: 0 auto;
+    position: relative;
+    top: 44px;
+    margin-top: 0px;
+}
+.inner_banner {height: 116px;}
+
+.template_news .img_rect {
+    width: 100%;
+    margin-right: 0px;
+}.footer {
+    height: 810px;
+}
+.template_news .footer {
+    height: 810px;
+}
+/****contantus***/
+.contactinfo {
+    width: 100%;
+    margin-top: 20px;}
+	
+	.getintouch {width: 100%;}
+.tabs-left>li>a, .tab-content {width: 430px;}
+.template_contact .form-control.name {width: 100%;}
+.template_contact .message {width: 100%;}
+
+/***mutualfunds***/
+
+
+
+.template_mutual .chart-container {
+    height: 333px;
+    width: 445px;
+}
+/****projectpage***/
+.project_image {width: 100%;}
+.project_descrip {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+.project_images {
+    padding-left: 21px;
+    margin-top: 36px;
+}
+.project_img {
+    margin: 0 auto;
+}
+/******sidebar mutualfunds***/
+.template_sdebarmutual .chart-container {
+    width: 434px;
+    height: 335px;
+}
+.service-lists {padding-left: 29px;}
+.allservics {
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+}
+.broucher {
+    margin-bottom: 10px;
+    padding-bottom: 22px;
+}
+	 div#leftsidebar {width: 50%;}
+	
+	/****servicepage***/
+	.business_head {
+    text-align: center;
+    padding-left: 0;
+    font-size: 16px;
+    line-height: 33px;
+}
+	
+.content {
+    text-align: justify;
+    margin: 0px auto;
+    max-width: 182px;
+    font-size: 14px;
+}.btn-read {font-size: 14px;}
+
+.template_service .img_serv {
+    width: 50%;
+    margin-right: 0px;
+    position: relative;
+    margin-bottom: 0px;
+}	
+.template_service .des_cont {top: 86%; }
+.banners_sev{margin-bottom:30px;}
+.saving_img {
+    margin-right: 0px;
+    margin-bottom: 25px;
+    width: 100%;
+}.content_best {
+    
+    margin: 0px auto;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 34px;
+    max-width: 100%;
+}
+.best_head {
+    padding-left: 0;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 17px;
+    padding-left: 0px;
+    letter-spacing: 0;
+}
+.services_best:before {
+    content: "";
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: -17px;
+    right: 50%;
+    border-bottom: 0px solid;
+    border-left: 1px solid;
+    border-top: 1px solid;
+}
+.services_bests:before {
+    content: "";
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 100%;
+    left: 44%;
+    margin-left: 0px;
+    border-top: 0px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;margin-top: -17px;
+}
+.saving_imgs
+{margin-top:25px;
+margin-bottom:0px;
+}
+.view_buttons {
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+/*****blogpage****/
+.template_blog .title_banner{font-size: 22px;}
+span.shares {margin-left: 0px;}
+li#share {left: 0px;}
+.template_blog .share {
+    width: 100%;    margin-bottom: 16PX;
+}
+.template_blog #navlist {
+    position: relative;
+    left: 0;
+    top: 4px;
+    right: 0;
+    margin: 0 auto;
+    max-width: 500px;
+}
+#sharefacebook_icon {left: 54px;}
+#sharegoogle-plus_icon { left: 60px;}
+#shareinstagram_icon {left: 87px;}
+#sharetwitter_icon {left: 116px;}
+#shareprinest_icon {left: 145px;}
+.admin_img {
+    margin-right: 0px;
+    max-width: 798px;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    float: unset;
+}
+.admin_content, .clients_img {width: 100%;}
+.admin_blogcomment {
+    padding: 35px 20px;
+    margin-left: 10px;
+	}.adminimgs{margin: 0 auto;}
+	.comment_section {margin-top: 6px;}
+	.admin_reply {
+    float: unset;
+    width: 100%;
+	}
+	.replyadmin_img {
+    width: 100%;
+    margin-right: 0px;
+}
+	.clientcomment_content {padding-left: 0px;}
+	.template_blog .emailtext {
+    padding-left: 0px;
+    width: 100%;
+}
+.formtext {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 22px;
+}
+.template_blog .form-group {margin-bottom: 20px;}
+.template_blog .tabp {margin-top: 12px;}
+
+/***blogdetails***/
+.template_blog .title_banner {font-size: 16px;}
+.template_blog .crumb_nav { font-size: 12px;}
+.mutual_head {font-size: 18px;}
+
+.admin_blogcomment {
+    padding: 35px 20px;
+    margin-left: 0px;
+}
+#shareadminfacebook_icon {left: 27%;}
+#shareadmingoogle-plus_icon {left: 30.8%;}
+#shareadminprinest_icon {left: 60.3%;}
+#shareadmintwitter_icon {left: 51%;}
+
+.template_blog div#leftsidebar {
+    width: 50%;
+}
+/****aboutpage****/
+.people__details {max-width: 450px;}
+
+.client_img {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 157px;
+    margin: 0 auto;
+}
+.commentsection {
+    float: right;
+    width: 100%;
+}.aboutimgs {left: 0px;}
+
+.socialhover_icons {
+    position: absolute;
+    left: 37px;
+    right: 0;
+    bottom: 50px;
+}.team_hover {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0;
+    margin-top: 21px;
+}
+
+/****customerrelation***/
+.linechart{width: 100%;}
+.solution_section {padding-left: 0px;}
+.template_customer .contentfund_img,.template_customer .contentfund_blog {width: 100%;}
+.left_project {width: 100%;}
+.template_customer .topic, .template_customer .text_conteny {
+    font-size: 17px;
+    letter-spacing: 0px;
+    padding-left: 0px;
+    text-align: center;
+}
+.template_customer .muntual_details {line-height: 24px;}
+.we_did { width: 100%;}
+.benfitsmuntual_details {line-height: 24px;}
+.template_customer .title_banner {
+    font-size: 16px;
+}
+.template_customer .crumb_nav {
+    font-size: 13px;
+}
+/****sidebar_customer***/
+	.template_sidebarcustomer .challege_section {
+   width:100%;
+}
+	.template_sidebarcustomer .solution_section {
+    padding-left: 0px;
+    float: right;
+    width: 100%;
+}
+	.template_sidebarcustomer .linechart, .template_sidebarcustomer .piechart {
+    width: 50%;
+}
+.template_sidebarcustomer .chart-container {
+    width: 320px;
+    margin-top: 0;
+    margin: 0 auto;
+    width: 400px;
+}
+.template_sidebarcustomer .investment {padding-left: 0px;}
+
+.contians{padding:0;}
+
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	@media only screen and (max-width: 480px)
+	
+	{
+	
+	.project {
+    margin: 0px;
+    margin-top: 27px;
+}
+.img_serv {
+   
+    width: 100%;
+    margin-bottom: 15px;
+}
+.des_cont {
+    top: 88%;
+}
+.footer_item {margin-top: 0px;}
+.footer_blog {margin-top: 0px;}
+.email {width: 88%;}
+.naviga {
+    margin-bottom: 3px;
+}
+hr {margin-top: 6px;}
+	.getconst {
+    width: 290px;
+    height: 328px;
+    margin: 0 auto;
+}
+	.get_head {
+    font-size: 21px;
+    letter-spacing: 0px;
+    line-height: 53px;
+    margin-bottom: 0px;
+    padding-left: 0px;margin-top: 0px;
+}
+	form.form-horizontal {
+    max-width: 227px;
+}
+
+.btn-send {
+    font-size: 16px;
+     padding: 18px 47px;
+   
+}
+.welcome_bannner {
+    width: 200px;
+    height: 200px;
+}
+.cont_head {
+    font-size: 23px;
+    letter-spacing: 0px;
+}
+.time_sev {padding-left: 0px;}
+.teamwork{padding-left: 17px;}
+.team_sev {padding-left: 18px;}
+.srvic_fin {
+    font-size: 13px;
+    text-align: center;
+    word-spacing: -3px;
+}
+.ourserv_head {
+    font-size: 23px;
+    letter-spacing: 0px;
+}
+.tellus {float: unset;}
+.contact {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.socialmedia_icons {
+    text-align: center;
+    margin-top: 0px; width:100%;
+}
+.sucess_head {font-size: 18px;}
+.yearofsuccess {
+    width: 270px;
+    height: 270px;
+	}
+	
+	.success_work {
+    position: absolute;
+    top: -26px;
+      margin-top: 0px;
+	}
+	.navigat {
+    font-size: 15px;
+    letter-spacing: 0.8px;
+	}
+	
+	.naviga {
+    font-size: 16px;
+    letter-spacing: 0.8px;
+	}
+	.footer {height: 805px;}
+.finan {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.mea {font-size: 14px;}
+
+.plan {
+    font-size: 23px;
+    line-height: 31px;
+}
+
+.btn-texts {
+    font-size: 14px;
+    padding: 17px 12px;
+}
+/***newspage***/
+.finan {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+/**contantus**/
+	.tabs-left>li>a,.tab-content {width: 274px;}
+	.getintouch {padding-right: 0px;}
+.template_contact .message {padding-right: 0px;}
+	.template_contact .learn_buttons {width: 100%;}
+
+/***mutualfunds**/
+	.template_mutual .chart-container {
+    height: 346px;
+    width: 288px;
+}
+/***projectpage**/
+.project_descrip {margin-top: 11px;}
+
+
+/****sidebarmutualfunds**/
+.template_sdebarmutual .chart-container {
+    width: 285px;
+    height: 291px;
+}
+ div#leftsidebar {
+    width: 100%;
+}
+/****servicepage***/
+.business {
+    margin-right: 0px;
+    width: 100%;
+}
+.banners_sev {margin-bottom: 0px;}
+.offer_service { margin-top: 12px;}
+.template_service .img_serv {width: 100%;}
+.template_service .des_cont {top: 89%;}
+.saving_invesments {
+    padding-left: 0;
+    padding-right: 0px;
+}
+.saving_blog {
+    width: 100%;
+    margin-bottom: 21px;
+}
+/**aboutpage***/
+.ourmission {padding-left: 0px;}
+.ourvision {
+    padding-left: 0px;
+}
+.mission {
+    height: 700px;
+}
+/***blogpage***/
+div#leftsidebar { width: 100%;}
+
+.template_sidebarcustomer .chart-container {
+    width: 320px;
+    margin-top: 0;
+    margin: 0 auto;
+    width: 274px;
+
+	}
+	
+	
+@media only screen and 
+	}
+	
+	@media only screen and (min-width: 1440px) {
+	.banner_slider
+	{
+		width:100%;
+	}
+	
+}

@@ -1,0 +1,6385 @@
+@font-face {
+    font-family: Asap-Regular;
+    src: url(font/Asap-Regular.woff);
+}
+@font-face {
+    font-family: FiraSans-Bold;
+    src: url(font/FiraSans-Bold.woff);
+}
+@font-face {
+    font-family: FiraSans-Regular;
+    src: url(font/FiraSans-Regular.woff);
+}
+@font-face {
+    font-family: Bitter-Bold;
+    src: url(font/Bitter-Bold.woff);
+}
+@font-face {
+    font-family: Asap-Bold;
+    src: url(font/Asap-Bold.woff);
+}
+.row{margin:0px;}
+.container-fluid{padding:0px;}
+.padding_none
+{
+padding:0px;
+}
+.container {
+  max-width: 1260px;
+	padding:0px;
+	margin:0 auto;
+	width:auto;
+}
+:focus {
+    outline:none;
+}
+a{ color:#fff; text-decoration:none;}
+a.hover{ color:#ffffff; text-decoration:none;}
+ul{padding:0; margin:0;}
+li{list-style-type:none;}
+p {
+    margin: 0 0 0px;
+}
+a:focus, a:hover {
+    color: #fff;
+    text-decoration:none;
+}
+/******************header section******/
+.head
+{
+	background-color:#003664;
+}
+.headersection {
+    padding: 10px 0px;
+}
+.callus
+{
+	    display: inline-block;
+	font-size: 14px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #fffefe;
+font-family: Asap-Regular;
+text-align: left;margin-right: 56px;
+}
+ul.socialmediaicons {
+    float: right;
+}
+li.socialmediaicons
+{
+    display: inline-block;
+}
+a.calus {
+    padding-left: 3px;
+    letter-spacing: 0.2px;
+}
+a.malus
+{
+	padding-left: 4px;
+    letter-spacing: 0.5px;
+}
+.calus:hover,.malus:hover{color:#fff;}
+
+/*****navbar****/
+.nav>li>a {
+    padding: 8px 14px;
+}
+
+li.nav-item {
+    margin-right: 4px;
+}
+li.nav-item:nth-child(7)
+{	margin-right: 0;
+    float: right;
+}
+.navgation {
+    background-color: #ffffff;
+    margin-bottom: 11px;
+    border: 0px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #003664;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #003664;
+    border-color: #337ab7;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 0px 0px;
+    clear: both;
+    font-weight: 400;
+    line-height: 3.428571;
+    color: #333;
+    white-space: nowrap;
+    
+    height: 44px;
+    text-align: center;
+}
+.logo {
+        padding: 0;
+    margin-top: 38px;
+}
+div#myNavbar {
+    padding: 0;
+}
+ul.nav.navbar-nav.navbar-right {
+    margin-top: 31px;
+}
+.nav-item
+{
+	font-size: 14px;
+    letter-spacing: 0px;
+line-height: 6px;
+color: #222222;
+font-family:  Asap-Regular;
+text-align: left;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+	color:unset;
+    text-decoration: none;
+}
+.my_change
+{
+	color:#fe6600;
+}
+.finance_image {
+    width: 44.4%;
+}
+/*** slider***/
+.banner_slider
+{
+	height: 619px
+}
+.banner_text {
+    position: absolute;
+    float: right;
+    top: 30%;
+}
+.finacalplan {
+    width: 100%;
+}
+
+.plan {
+    font-size: 61px;
+    letter-spacing: 1.3px;
+    line-height: 83px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    max-width: 801px;
+}
+
+.learnmore {
+    text-align: center;
+    margin-top: 31px;
+}
+
+.btn-texts {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+ padding: 24px 38px;
+    background-color: #fe6600;
+    border: 0px;
+}
+.learn_buttons {
+    display: inline-block;
+   margin-left: 5px;
+}
+
+
+/*welcome_sction*/
+.cont_head {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 3 0px;
+    color: #333333;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 14px;
+    margin-top: 13px;
+}
+.conte_para
+{
+	font-size: 16px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #3a5266;
+font-family: Asap-Regular;
+text-align: left;
+}
+.items_sev {
+    display: inline-block;
+    }
+	.time_sev
+	{
+		padding-left: 23px;
+	}
+	.team_sev
+	{    padding-left: 24px;
+	}
+li.socialmediaicons:nth-child(5){
+	float: right;
+    margin: 0;
+	
+}
+li.socialmediaicons {
+    margin-right: 19px;
+}
+.services {
+    margin-top: 24px;
+}
+.srvic_fin
+{
+	
+	font-size: 16px;
+letter-spacing: 0.58px;
+line-height: 29px;
+color: #3a5266;
+font-family:  Asap-Regular;
+text-align: left;
+}
+.welcome_bannner {
+    background-image: url(../image/welcome-image.png);
+    width: 480px;
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    float: left;
+    border: 1px solid #333333;
+    top: -65px;
+    left: 1px;
+}
+
+.cont {
+    margin-top: 43px;
+    width: 55%;
+    padding-left: 3px;
+}
+
+.space {
+    float: left;
+    margin: 85px auto;
+    width: 100%;
+}
+/**ourmainservice*/
+
+.ourserv_head {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #333333;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+}
+.des_cont {
+    font-size: 18px;
+  letter-spacing: 0.8px;
+   
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 87%;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+   padding: 6px 7px;
+}
+
+.banners_sev {
+    margin-top: 26px;
+}
+
+.img_serv {
+    width: 23.41%;
+    margin-right: 26.7px;
+    position: relative;
+    margin-bottom: 49px;
+}
+.img_sevs
+{
+	margin-bottom: 0;
+}
+.img_serv:nth-child(4n+4)
+{
+	float:right;
+margin-right:0px;	
+}
+.infor
+{
+	
+	font-size: 16px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #ffffff;
+ font-family: FiraSans-Bold;
+font-weight: bold;
+text-align: center;
+text-decoration:underline;
+text-underline-position:under;
+text-decoration-color:red;
+}
+.services_main a:before {
+     content: "";
+    background-color: rgba(61,94,126,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+   bottom: 0px;
+    opacity: 0;z-index: 99;
+}
+.img_serv:hover .services_main a:before
+{
+	opacity:1;transition: 0.4s ease-in;
+
+}
+.readmore
+{
+	  position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin-top: 80px;
+    opacity: 0;
+z-index: 999;
+	
+}
+
+.img_serv:hover .readmore
+{
+	opacity:1;transition: 0.4s ease-in;
+
+}
+
+
+/***yearof success**/
+.yearof.success {
+    margin-top: 38px;
+       margin-bottom: 53px;
+}
+.yearofsuccess {
+    background-image: url(../image/girl-bg.png);
+    width: 540px;
+    height: 570px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+   
+}
+.sucess_head {
+    font-size: 29px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #286090;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: right;
+    word-spacing: 4px;
+}
+canvas{
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			-ms-user-select: none;
+		}
+		.chart-container {
+  width: 621px;
+      margin-top: 80px;
+}
+.charts {
+    width: 50%;
+ 
+    float: right;
+}
+.mychart {
+    position: absolute;
+    top: 91px;
+    margin-top: 14px;
+}
+.success_work {
+    position: absolute;
+    top: 69px;
+    left: 0;
+    right: 0;
+    margin-top: 37px;
+    opacity: 1;
+    width: 62%;
+    padding-right: 5px;
+}
+/***our project***/
+.ourproject_ser {
+    background-image: url(../image/project-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 414px;
+    margin-top: 48px;
+}
+
+.project_head
+{
+	
+	font-size: 19px;
+letter-spacing: 1px;
+line-height: 33px;
+color: #ffffff;
+font-family: FiraSans-Bold;
+font-weight: bold;
+text-align: left;
+text-decoration:underline;
+text-underline-position:under;
+text-decoration-color:red;
+word-spacing: -5px;
+}
+.project_cont {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #fefefe;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 6px;
+}
+.project {
+    margin: 54px 0px;
+}
+.img_proj {
+    position: relative;
+    width: 31.71%;
+    margin-right: 30px;
+}
+.our_img a:before
+{
+	
+	 content: "";
+    background-color: rgba(61,94,126,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+   bottom: 0px;
+    opacity: 0;
+	
+}
+.img_proj:hover .our_img a:before
+{
+	opacity:1;transition: 0.4s ease-in;
+
+}
+.descri {
+    position: absolute;
+    top: 92px;
+    left: 0;
+    right: 0;
+    margin-top: 91px;
+    opacity: 0;
+    margin-left: 21px;
+    margin-right: 10px;
+}
+.constulation {
+    position: absolute;
+}
+.img_proj:hover .descri
+{
+	opacity:1;transition: 0.4s ease-in;
+
+}
+.img_proj:nth-child(3)
+{
+	float: right;
+    margin-right: 0;
+}
+
+.getfree {
+    margin-top: 50px;
+    margin-bottom: 48px;
+}
+.form_free {
+    float: right;
+    position: relative;
+}
+.get_head {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 29px;
+  
+    margin-bottom: 49px;
+    padding-left: 6px;
+}
+
+.getconst {
+    background-image: url(../image/pic-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 760px;
+    height: 357px;
+    position: absolute;
+    top: 32px;
+    left: 1px;
+}
+.btn-send {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 21px 71px;
+    background-color: #fe6600;
+    border-radius: 0;
+}
+
+.button{
+	margin-bottom:0px;
+}
+.send_but
+{
+	text-align:center;
+}
+.form-horizontal .form-group {
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+form.form-horizontal {
+    text-align: center;
+    max-width:  586px;
+    margin: 0 auto;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 37px;
+    padding: 6px 10px;
+}
+.form-group {
+    margin-bottom: 52px;
+}
+.from-groups
+{
+	margin-bottom: 49px;
+}
+.form-group.button {
+    margin-bottom: 0;
+}
+.name_input
+{
+	width:44%;
+}
+.email_input {
+    width: 43.5%;
+    float: right;
+}
+.form-control
+{
+	border-radius:0px;
+}
+.rec_post {
+    margin-top: 28px;
+}
+.finan {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #444444;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 9px;
+    word-spacing: -1px;
+}
+.mea {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+.histr
+{
+	    margin-top: 20px;
+    margin-left: 0px;
+}
+.by_admin
+{
+	margin-top: 16px;
+    margin-left: 10px;
+}
+.line
+{
+	width: 145px;
+height: 2px;
+background-color: #fd6500;margin-bottom: 10px;
+	
+}
+.img_rect {
+    width: 31.71%;
+    margin-right: 30px;
+}
+.img_rect:nth-child(3) {
+    float:right;
+    margin-right: 0px;
+}
+/*footer*/
+.footer_item
+{
+	margin-top:16px;
+}
+.naviga
+{
+	font-size: 18px;
+letter-spacing: 1.8px;
+color: #ffffff;
+font-family: FiraSans-Bold;
+font-weight: bold;
+text-align: left;
+	
+	
+}
+.navigat
+{
+	font-size: 18px;
+    letter-spacing: 1.8px;
+color: #ffffff;
+font-family: FiraSans-Bold;
+font-weight: bold;
+text-align: left;
+	
+	
+}
+.nav_item {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    color: #d6d6d6;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 3px;
+}
+
+.footer_blog {
+    width: 63%;
+    margin-top: 35px;
+    position: relative;
+}
+.footer
+{
+	background-image: url(../image/footer-bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:346px;
+	    margin-top: 47px;
+}
+
+.subcribe {
+    font-size: 13px;
+   letter-spacing: 0.999px;
+    line-height: 22px;
+    color: #d6d6d6;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-top: 24px;
+}
+
+@font-face {
+    font-family: Asap-Regular;
+    src: url(font/Asap-Regular.woff);
+}
+@font-face {
+    font-family: FiraSans-Bold;
+    src: url(font/FiraSans-Bold.woff);
+}
+@font-face {
+    font-family: FiraSans-Regular;
+    src: url(font/FiraSans-Regular.woff);
+}
+@font-face {
+    font-family: Bitter-Bold;
+    src: url(font/Bitter-Bold.woff);
+}
+.row{margin:0px;}
+.container-fluid{padding:0px;}
+.padding_none
+{
+padding:0px;
+}
+.container {
+  max-width: 1260px;
+	padding:0px;
+	margin:0 auto;
+	width:auto;
+}
+:focus {
+    outline:none;
+}
+a{ color:#fff; text-decoration:none;}
+a.hover{ color:#ffffff; text-decoration:none;}
+ul{padding:0; margin:0;}
+li{list-style-type:none;}
+p {
+    margin: 0 0 0px;
+}
+a:focus, a:hover {
+    color: #fff;
+    text-decoration:none;
+}
+/******************header section******/
+.head
+{
+	background-color:#003664;
+}
+.headersection {
+    padding: 10px 0px;
+}
+.callus
+{
+	    display: inline-block;
+	font-size: 14px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #fffefe;
+font-family: Asap-Regular;
+text-align: left;margin-right: 56px;
+}
+ul.socialmediaicons {
+    float: right;
+}
+li.socialmediaicons
+{
+    display: inline-block;
+}
+a.calus {
+    padding-left: 3px;
+    letter-spacing: 0.2px;
+}
+a.malus
+{
+	padding-left: 4px;
+    letter-spacing: 0.5px;
+}
+
+/*****navbar****/
+.nav>li>a {
+    padding: 8px 14px;
+}
+
+li.nav-item {
+    margin-right: 4px;
+}
+li.nav-item:nth-child(7)
+{	margin-right: 0;
+    float: right;
+}
+.navgation {
+    background-color: #ffffff;
+    margin-bottom: 11px;
+    border: 0px;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #003664;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #003664;
+    border-color: #337ab7;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 0px 0px;
+    clear: both;
+    font-weight: 400;
+    line-height: 3.428571;
+    color: #333;
+    white-space: nowrap;
+    height: 46px;
+    text-align: center;
+    padding: 1px 10px;
+}
+.logo {
+        padding: 0;
+    margin-top: 38px;
+}
+
+.dropdown-menu{padding: 15px 7px;}
+div#myNavbar {
+    padding: 0;
+}
+ul.nav.navbar-nav.navbar-right {
+    margin-top: 31px;
+}
+.nav-item
+{
+	font-size: 14px;
+    letter-spacing: 0px;
+line-height: 6px;
+color: #222222;
+font-family:  Asap-Regular;
+text-align: left;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+	color:unset;
+    text-decoration: none;
+}
+.my_change
+{
+	color:#fe6600;
+}
+.finance_image {
+    width: 44.4%;
+}
+/*** slider***/
+.banner_slider
+{
+	height: 619px
+}
+.banner_text {
+    position: absolute;
+    float: right;
+    top: 30%;
+    right: 0px;
+}
+.finacalplan {
+    width: 100%;
+}
+
+.plan {
+    font-size: 61px;
+    letter-spacing: 1.3px;
+    line-height: 83px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    max-width: 801px;
+}
+
+.learnmore {
+    text-align: center;
+    margin-top: 31px;
+}
+
+.btn-texts {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+ padding: 24px 38px;
+    background-color: #fe6600;
+    border: 0px;
+}
+.learn_buttons {
+    display: inline-block;
+   margin-left: 5px;
+}
+
+
+/*welcome_sction*/
+.cont_head {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 3 0px;
+    color: #333333;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 14px;
+    margin-top: 13px;
+}
+.conte_para
+{
+	font-size: 16px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #3a5266;
+font-family: Asap-Regular;
+text-align: left;
+}
+.items_sev {
+    display: inline-block;
+    }
+	.time_sev
+	{
+		padding-left: 23px;
+	}
+	.team_sev
+	{    padding-left: 24px;
+	}
+li.socialmediaicons:nth-child(5){
+	float: right;
+    margin: 0;
+	
+}
+li.socialmediaicons {
+    margin-right: 19px;
+}
+.services {
+    margin-top: 24px;
+}
+.srvic_fin
+{
+	
+	font-size: 16px;
+letter-spacing: 0.58px;
+line-height: 29px;
+color: #3a5266;
+font-family:  Asap-Regular;
+text-align: left;
+}
+.welcome_bannner {
+    background-image: url(../image/welcome-image.png);
+    width: 480px;
+    height: 480px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: absolute;
+    float: left;
+    border: 1px solid #333333;
+    top: -65px;
+    left: 1px;
+}
+
+.cont {
+    margin-top: 43px;
+    width: 55%;
+    padding-left: 3px;
+}
+
+.space {
+    float: left;
+    margin: 85px auto;
+    width: 100%;
+}
+/**ourmainservice*/
+
+.ourserv_head {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #333333;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+}
+.des_cont {
+    font-size: 18px;
+  letter-spacing: 0.8px;
+   
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 87%;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+   padding: 6px 7px;
+}
+
+.banners_sev {
+    margin-top: 26px;
+}
+
+.img_serv {
+    width: 23.41%;
+    margin-right: 26.7px;
+    position: relative;
+    margin-bottom: 49px;
+}
+.img_sevs
+{
+	margin-bottom: 0;
+}
+.img_serv:nth-child(4n+4)
+{
+	float:right;
+margin-right:0px;	
+}
+.infor
+{
+	
+	font-size: 16px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #ffffff;
+ font-family: FiraSans-Bold;
+font-weight: bold;
+text-align: center;
+text-decoration:underline;
+text-underline-position:under;
+text-decoration-color:red;
+}
+.services_main a:before {
+     content: "";
+    background-color: rgba(61,94,126,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+   bottom: 0px;
+    opacity: 0;z-index: 99;
+}
+.img_serv:hover .services_main a:before
+{
+	opacity:1;transition: 0.4s ease-in;
+
+}
+.readmore
+{
+	  position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin-top: 80px;
+    opacity: 0;
+z-index: 999;
+	
+}
+
+.img_serv:hover .readmore
+{
+	opacity:1;transition: 0.4s ease-in;
+
+}
+
+
+/***yearof success**/
+.yearof.success {
+    margin-top: 38px;
+       margin-bottom: 53px;
+}
+.yearofsuccess {
+    background-image: url(../image/girl-bg.png);
+    width: 540px;
+    height: 570px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+   
+}
+.sucess_head {
+    font-size: 29px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #286090;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: right;
+    word-spacing: 4px;
+}
+canvas{
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			-ms-user-select: none;
+		}
+		.chart-container {
+  width: 621px;
+      margin-top: 80px;
+}
+.charts {
+    width: 50%;
+ 
+    float: right;
+}
+.mychart {
+    position: absolute;
+    top: 91px;
+    margin-top: 14px;
+}
+.success_work {
+    position: absolute;
+    top: 69px;
+    left: 0;
+    right: 0;
+    margin-top: 37px;
+    opacity: 1;
+    width: 62%;
+    padding-right: 5px;
+}
+/***our project***/
+.ourproject_ser {
+    background-image: url(../image/project-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 414px;
+    margin-top: 48px;
+}
+
+.project_head
+{
+	
+	font-size: 19px;
+letter-spacing: 1px;
+line-height: 33px;
+color: #ffffff;
+font-family: FiraSans-Bold;
+font-weight: bold;
+text-align: left;
+text-decoration:underline;
+text-underline-position:under;
+text-decoration-color:red;
+word-spacing: -5px;
+}
+.project_cont {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #fefefe;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 6px;
+}
+.project {
+    margin: 54px 0px;
+}
+.img_proj {
+    position: relative;
+    width: 31.71%;
+    margin-right: 30px;
+}
+.our_img a:before
+{
+	
+	 content: "";
+    background-color: rgba(61,94,126,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+   bottom: 0px;
+    opacity: 0;
+	
+}
+.img_proj:hover .our_img a:before
+{
+	opacity:1;transition: 0.4s ease-in;
+
+}
+.descri {
+    position: absolute;
+    top: 92px;
+    left: 0;
+    right: 0;
+    margin-top: 91px;
+    opacity: 0;
+    margin-left: 21px;
+    margin-right: 10px;
+}
+.constulation {
+    position: absolute;
+}
+.img_proj:hover .descri
+{
+	opacity:1;transition: 0.4s ease-in;
+
+}
+.img_proj:nth-child(3)
+{
+	float: right;
+    margin-right: 0;
+}
+
+.getfree {
+    margin-top: 50px;
+    margin-bottom: 48px;
+}
+.form_free {
+    float: right;
+    position: relative;
+}
+.get_head {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 29px;
+  
+    margin-bottom: 49px;
+    padding-left: 6px;
+}
+
+.getconst {
+    background-image: url(../image/pic-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 760px;
+    height: 357px;
+    position: absolute;
+    top: 32px;
+    left: 1px;
+}
+.btn-send {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 21px 71px;
+    background-color: #fe6600;
+    border-radius: 0;
+}
+
+.button{
+	margin-bottom:0px;
+}
+.send_but
+{
+	text-align:center;
+}
+.form-horizontal .form-group {
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+form.form-horizontal {
+    text-align: center;
+    max-width:  586px;
+    margin: 0 auto;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 37px;
+    padding: 6px 10px;
+}
+.form-group {
+    margin-bottom: 52px;
+}
+.from-groups
+{
+	margin-bottom: 49px;
+}
+.form-group.button {
+    margin-bottom: 0;
+}
+.name_input
+{
+	width:44%;
+}
+.email_input {
+    width: 43.5%;
+    float: right;
+}
+.form-control
+{
+	border-radius:0px;
+}
+.rec_post {
+    margin-top: 28px;
+}
+.finan {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 29px;
+    color: #444444;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 9px;
+    word-spacing: -1px;
+}
+.mea {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+.histr
+{
+	    margin-top: 20px;
+    margin-left: 0px;
+}
+.by_admin
+{
+	margin-top: 16px;
+    margin-left: 10px;
+}
+.line
+{
+	width: 145px;
+height: 2px;
+background-color: #fd6500;margin-bottom: 10px;
+	
+}
+.img_rect {
+    width: 31.71%;
+    margin-right: 30px;
+}
+.img_rect:nth-child(3) {
+    float:right;
+    margin-right: 0px;
+}
+/*footer*/
+.footer_item
+{
+	margin-top:16px;
+}
+.naviga
+{
+	font-size: 18px;
+letter-spacing: 1.8px;
+color: #ffffff;
+font-family: FiraSans-Bold;
+font-weight: bold;
+text-align: left;
+	
+	
+}
+.navigat
+{
+	font-size: 18px;
+    letter-spacing: 1.8px;
+color: #ffffff;
+font-family: FiraSans-Bold;
+font-weight: bold;
+text-align: left;
+	
+	
+}
+.nav_item {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    color: #d6d6d6;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 3px;
+}
+
+.footer_blog {
+    width: 100%;
+    margin-top: 35px;
+    position: relative;
+}
+.footer
+{
+	background-image: url(../image/footer-bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 349px;
+	    margin-top: 47px;
+}
+
+.subcribe {
+    font-size: 13px;
+   letter-spacing: 0.999px;
+    line-height: 22px;
+    color: #d6d6d6;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-top: 24px;
+}
+.right_footer {width: 35%;}
+.left_footer{width: 65%;}
+.navi_head {
+    width: 50%;
+}
+.contus
+{
+	float:left;
+	    width: 54.5%;
+    padding-left: 44px;
+}
+.navi_heads {
+     width: 45%;
+    margin-top: 0px;
+    padding-left: 0;
+    position: relative;
+}
+.btn_email {
+    display: inline-block;
+    padding: 0px 0px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 0;
+    text-align: center;
+     border: 0px solid transparent;
+    border-radius: 50%;
+}
+.email {
+    display: inline-block;
+    width: 91%;
+    height: 28px;
+    padding: 7px 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+}
+.group {
+    margin-top: 16px;
+}
+.rights {
+    float: right;
+    position: relative;
+    left: 40px;
+}
+.footerright {
+    font-size: 14px;
+    letter-spacing: 1.59px;
+    color: #b9b9b9;
+    font-family: Asap-Regular;
+    text-align: left;
+    padding-left: 2px;
+}
+.copyright {
+   position: absolute;
+    top: 37px;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.loca
+{
+	padding-left: 15px;
+    letter-spacing: 0.49px;
+}
+	.mobil
+	{
+		padding-left: 13px;
+    line-height: 32px;
+    
+    letter-spacing: 0.6px;
+	}
+	.fax
+	{
+		padding-left: 16px;
+     letter-spacing: 0.5px;
+    line-height: 29px;
+	}
+	.mailid
+	{
+		padding-left: 14px;
+       letter-spacing: 0.5px;
+   }
+   .useful
+   {
+	   letter-spacing: 1.8px;
+   }
+   
+   
+   
+   #navlist {
+    position: relative;
+    left: 0;
+    top: 4px;
+    right: 0;
+    margin: 0 auto;
+   
+    max-width: 171px;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+#navlist li, #navlist a {
+    height: 44px;
+    display: block;
+}
+#facebook_icon {
+    left: -6px;
+    width: 30px;
+    background: url(../image/social_logos.png);
+    background-repeat: no-repeat;
+   
+}
+#google-plus_icon {
+        left: 25px;
+    width: 48px;
+    background: url(../image/social_logos.png) -31px 0;
+    background-repeat: no-repeat;
+}
+#instagram_icon {
+  left: 74px;
+    width: 46px;
+    background: url(../image/social_logos.png) -80px 0;
+    background-repeat: no-repeat;
+}
+#twitter_icon {
+   left: 116px;
+    width: 46px;
+    background: url(../image/social_logos.png)-122px 0;
+    background-repeat: no-repeat;
+}
+
+#prinest_icon {
+   left: 150px;
+    width: 28px;
+    background: url(../image/social_logos.png) -156px 0;
+    background-repeat: no-repeat;
+}
+.like_icon {
+    display:inline-block !important;
+}
+
+
+
+.item.active {
+    height: 619px;
+}
+
+
+
+
+/*********************************newspage***************************************************************************/
+.inner_banner
+{
+	background-image:url(../image/ourproject_serourproject_ser.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 342px;
+}
+	
+	
+	.project_text {
+    margin: 0 auto;
+    position: relative;
+   top: 86px;
+    margin-top: 67px;
+}
+h1.title_banner {
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.breadcrumb>.active {
+    color: #040404;
+}
+.breadcrumb {
+   padding: 5px 0px;
+   margin-bottom: 5px;
+    list-style: none;
+    background-color: unset;
+    border-radius: 0px;
+    border-bottom: 1px solid;
+}
+.bread_home:hover {
+    color: #807979;
+    text-decoration: none;
+}
+.bread_home {
+    color: #807979;
+	text-decoration: none;
+}
+.crumb_nav
+{
+	font-size: 15px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #999999;
+font-family: FiraSans-Regular;
+text-align: center;
+}
+.breadcrumb>li+li:before {
+    padding: 0 0px;
+    color: #ccc;
+    content: "/\00a0";
+}
+.template_news .img_rect:nth-child(3n+3) {
+    float: right;
+    margin-right: 0px;
+}
+.template_news .img_rect {
+    width: 31.71%;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.lines {
+    width: 145px;
+    height: 0px;
+    border-top: 2px solid #fd6500;
+    margin-bottom: 0px;
+}
+
+.finan {
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    line-height: 29px;
+    color: #444444;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 0px;
+    word-spacing: 0px;
+}
+.mea {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+}
+.pagetion {
+    text-align: center;
+    width: 100%;
+}
+.pagination>li {
+    display: inline-block;
+    padding-right: 22px;
+}
+pagination>li:nth-child(1)
+{
+	    padding-right: 20px;
+}
+.pagination>li:nth-child(2)
+{
+	     padding-right: 18px;
+}
+
+.pageation-blog {
+    margin-top: 21px;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+   
+    border-radius: 4px;
+    margin-top: 32px;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+     margin-left: -1px;
+    line-height: 29px;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-radius: 50%;
+    font-size: 22px;
+    width: 49px;
+    height: 47px;
+	padding-right: 13px;
+	   font-family: FiraSans-Bold;
+    font-weight: bold;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+  border-radius: 50%;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+   border-radius: 50%;
+}
+.pagination>.active>span , .pagination>li>a
+{
+	z-index: 3;
+    color: #4e4e4e;
+    cursor: default;
+    background-color: #ffffff;
+    border-color: #f0f0f0;
+}
+
+ .pagination>.active>span:hover, .pagination>li>a:hover {
+  z-index: 3;
+    color: #4e4e4e;
+    cursor: default;
+    background-color: #ffffff;
+    border-color: #31ecee;
+	border: 1px solid #ddd;
+	  width: 49px;
+    height: 47px;
+}
+.template_news .img_rectr
+{margin-bottom:0px;}
+
+.template_news .footer {
+       height: 351px;
+    margin-top: 26px;
+}
+.contus
+{
+	float:left;
+	    width: 54.5%;
+    padding-left: 44px;
+   
+}
+.navi_heads {
+     width: 45%;
+    margin-top: 0px;
+    padding-left: 0;
+    position: relative;
+}
+.btn_email {
+    display: inline-block;
+    padding: 0px 0px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 0;
+    text-align: center;
+     border: 0px solid transparent;
+    border-radius: 50%;
+}
+.email {
+    display: inline-block;
+    width: 91%;
+    height: 28px;
+    padding: 7px 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+}
+.group {
+    margin-top: 16px;
+}
+.rights {
+    float: right;
+    position: relative;
+    left: 40px;
+}
+.footerright {
+    font-size: 14px;
+    letter-spacing: 1.59px;
+    color: #b9b9b9;
+    font-family: Asap-Regular;
+    text-align: left;
+    padding-left: 2px;
+}
+.copyright {
+  position: absolute;
+    top: 37px;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.loca
+{
+	padding-left: 15px;
+    letter-spacing: 0.49px;
+}
+	.mobil
+	{
+		padding-left: 13px;
+    line-height: 32px;
+    
+    letter-spacing: 0.6px;
+	}
+	.fax
+	{
+		padding-left: 16px;
+     letter-spacing: 0.5px;
+    line-height: 29px;
+	}
+	.mailid
+	{
+		padding-left: 14px;
+       letter-spacing: 0.5px;
+   }
+   .useful
+   {
+	   letter-spacing: 1.8px;
+   }
+   
+   
+   
+   #navlist {
+    position: relative;
+    left: 0;
+    top: 4px;
+    right: 0;
+    margin: 0 auto;
+   
+    max-width: 171px;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+#navlist li, #navlist a {
+    height: 44px;
+    display: block;
+}
+#facebook_icon {
+    left: -6px;
+    width: 30px;
+    background: url(../image/social_logos.png);
+    background-repeat: no-repeat;
+   
+}
+#google-plus_icon {
+        left: 25px;
+    width: 48px;
+    background: url(../image/social_logos.png) -31px 0;
+    background-repeat: no-repeat;
+}
+#instagram_icon {
+  left: 74px;
+    width: 46px;
+    background: url(../image/social_logos.png) -80px 0;
+    background-repeat: no-repeat;
+}
+#twitter_icon {
+   left: 116px;
+    width: 46px;
+    background: url(../image/social_logos.png)-122px 0;
+    background-repeat: no-repeat;
+}
+
+#prinest_icon {
+   left: 150px;
+    width: 28px;
+    background: url(../image/social_logos.png) -156px 0;
+    background-repeat: no-repeat;
+}
+.like_icon {
+    display:inline-block !important;
+}
+
+
+
+.item.active {
+    height: 619px;
+}
+
+
+
+
+/*********************************newspage***************************************************************************/
+.inner_banner
+{
+	background-image:url(../image/ourproject_serourproject_ser.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 342px;
+}
+	
+	
+	.project_text {
+    margin: 0 auto;
+    position: relative;
+   top: 86px;
+    margin-top: 67px;
+}
+h1.title_banner {
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.breadcrumb>.active {
+    color: #040404;
+}
+.breadcrumb {
+   padding: 5px 0px;
+   margin-bottom: 5px;
+    list-style: none;
+    background-color: unset;
+    border-radius: 0px;
+    border-bottom: 1px solid;
+}
+.bread_home:hover {
+    color: #807979;
+    text-decoration: none;
+}
+.bread_home {
+    color: #807979;
+	text-decoration: none;
+}
+.crumb_nav
+{
+	font-size: 15px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #999999;
+font-family: FiraSans-Regular;
+text-align: center;
+}
+.breadcrumb>li+li:before {
+    padding: 0 0px;
+    color: #ccc;
+    content: "/\00a0";
+}
+.template_news .img_rect:nth-child(3n+3) {
+    float: right;
+    margin-right: 0px;
+}
+.template_news .img_rect {
+    width: 31.71%;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.lines {
+    width: 145px;
+    height: 0px;
+    border-top: 2px solid #fd6500;
+    margin-bottom: 0px;
+}
+
+.finan {
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    line-height: 29px;
+    color: #444444;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 0px;
+    word-spacing: 0px;
+}
+.mea {
+    font-size: 15px;
+    letter-spacing: 0.2px;
+}
+.pagetion {
+    text-align: center;
+    width: 100%;
+}
+.pagination>li {
+    display: inline-block;
+    padding-right: 22px;
+}
+pagination>li:nth-child(1)
+{
+	    padding-right: 20px;
+}
+.pagination>li:nth-child(2)
+{
+	     padding-right: 18px;
+}
+
+.pageation-blog {
+    margin-top: 21px;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+   
+    border-radius: 4px;
+    margin-top: 32px;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+     margin-left: -1px;
+    line-height: 29px;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-radius: 50%;
+    font-size: 22px;
+    width: 49px;
+    height: 47px;
+	padding-right: 13px;
+	   font-family: FiraSans-Bold;
+    font-weight: bold;
+}
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+  border-radius: 50%;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+   border-radius: 50%;
+}
+.pagination>.active>span , .pagination>li>a
+{
+	z-index: 3;
+    color: #4e4e4e;
+    cursor: default;
+    background-color: #ffffff;
+    border-color: #f0f0f0;
+}
+
+ .pagination>.active>span:hover, .pagination>li>a:hover {
+  z-index: 3;
+    color: #4e4e4e;
+    cursor: default;
+    background-color: #ffffff;
+    border-color: #31ecee;
+	border: 1px solid #ddd;
+	  width: 49px;
+    height: 47px;
+}
+.template_news .img_rectr
+{margin-bottom:0px;}
+
+.news_img{position:relative;}
+.news_img:hover :before{opacity:1;transition: 0.4s ease-in;}
+.news_img a:before {
+    content: "";
+    background-color: rgba(61,94,126,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    z-index: 99;
+}
+
+.readmores {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin-top: 80px;
+    opacity: 0;
+    z-index: 999;
+    margin: 75px auto;
+    text-align: center;
+}
+.news_img:hover .readmores{opacity:1;
+transition: 0.4s ease-in;}
+/******contantuspage*****/
+.map {
+    height: 472px;
+    margin-top: 27px;
+}
+
+.getintouchme {margin-top: 47px;}
+.getin_head,.Contact_head
+{
+	font-size: 20px;
+line-height: 27px;
+color: #333333;
+font-family: FiraSans-Regular;
+text-align: left;
+}
+.tabp {
+    margin-top: 14px;
+}
+.template_contact form.form-horizontal {
+   max-width: 100%;
+}
+.address-info {
+    margin-top: 13px;
+    margin-left: 4px;
+}
+.homaddress{background-color: #474747;}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    border-color: unset;
+    background-color: #474747;
+    margin-bottom: 19px;
+}
+.panel-default>.panel-heading .socialpanel{margin-bottom: 5px;}
+
+a.panel-title{font-size: 16px;
+line-height: 27px;
+color: #e2e2e2;
+font-family: FiraSans-Regular;
+text-align: left;
+}
+a.panel-title:focus,a.panel-title:hover {
+    color: #e2e2e2;
+    text-decoration: none;
+}
+.panel-heading {
+    padding: 7px 17px;
+    border-bottom: 0px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.panel {
+     margin-bottom: 0px; 
+    background-color: #fff; 
+    border: 0px solid transparent; 
+     border-radius: 0px; 
+     -webkit-box-shadow: unset; 
+     box-shadow: unset
+}
+.panel-default>.panel-heading:active,.panel-default>.panel-heading:focus,.panel-default>.panel-heading:hover {background-color: #0079e4;}
+.join {
+    background-color: #f2f2f2;
+    padding: 9px 19px;
+    color: #ffffff;
+    
+    height: 116px;
+    font-size: 14px;
+    line-height: 27px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-top: 0px;
+}
+.panel-body {
+    padding: 0px;
+}
+
+.social {
+    font-size: 14px;
+    line-height: 27px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-top: 16px;
+    padding-left: 1px;
+}
+
+
+
+#navlist_tab {
+    position: relative;
+    left: 24px;
+    top: 23px;
+    right: 0;
+    text-align: center;
+}
+
+#navlist_tab li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+#navlist_tab li, #navlist_tab a {
+    height: 44px;
+    display: block;
+}
+.template_contact .form-group {
+    margin-bottom: 23px;
+}
+.template_contact .learn_buttons {
+    display: block;
+    margin-left: 0px;
+    text-align: center;
+    width: 89.2%;
+}
+ .template_contact .form-control.name {
+    display: block;
+    width: 89.6%;
+    height: 37px;
+    padding: 6px 10px;
+}
+.template_contact .form-group.message {
+    margin-bottom: 19px;
+}
+.template_contact .btn-send {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 23px 71px;
+    background-color: #fe6600;
+    border-radius: 0;
+}
+
+.panel-heading.socialpanel {
+    margin-bottom: 8px;
+}
+.contactinfo {
+    width: 49.7%;
+    padding-left: 10px;
+}
+.getintouch {
+    width: 50%;
+    margin-right: 0px;
+    padding-right: 61px;
+}
+.template_contact .message {
+    height: 92px;
+    resize: none;
+    display: block;
+    width: 95.6%;
+    
+    padding-right: 13px;
+}
+.template_contact li.social_ne.active {margin-bottom: 9px;}
+div#messages {padding-left: 13px;}
+div#profile,div#home{padding-left: 13px;}
+a:focus, a:hover {
+    color: #474747;
+    text-decoration: none;
+}
+.template_contact #facebook_icon {left: -24px;}
+.template_contact #google-plus_icon {left: 7px;}
+.template_contact #instagram_icon {left: 56px;}
+.template_contact #twitter_icon {left: 98px;}
+.template_contact #prinest_icon {left: 132px;}
+
+.template_contact .footer {
+    margin-top: 27px;
+}
+/****mutualfundsblog****/
+.contentfund_img {width: 34.921%;}
+.contentfund_blog{width: 64%;
+    margin-right: 13px;}
+.mutual_funds {
+    margin-top: 24px;
+}
+.mutual_head {
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+    font-family: FiraSans-Regular;
+    text-align: left;
+    margin-top: 0;
+}
+.muntual_details {
+    font-size: 14px;
+    line-height: 27px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+   max-width: 776px;
+    letter-spacing: 0.2px;
+}
+.benfitsmuntual_details {
+    font-size: 14px;
+    line-height: 28px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+  text-align: justify;
+    letter-spacing: 0.1px;
+    margin-top: 12px;
+}
+
+.aboutcontentfund_img 
+{
+	    width: 34.33%;    margin-top: 7px;
+}
+.aboutcontentfund_blog 
+{    width: 65.666%;}
+	
+.faq {
+    margin-top: 31px;
+    margin-bottom: 0px;
+}
+.aboutmuntual_details {
+    font-size: 14px;
+    line-height: 26px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+   text-align: justify;
+    letter-spacing: 0x;
+    text-indent: 32px;
+}
+.mutual_det
+{
+	margin-bottom: 20px;
+}
+.list_invest {
+    font-size: 14px;
+    line-height: 29px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+   list-style-image: url('../image/dots.png');
+	
+}
+.investment {
+    text-align: center;
+    
+    margin-top: 17px;
+    padding-left: 61px;
+}
+.contentfund_benfits { margin-top: 28px;}
+.template_mutual .mychart {
+    position: relative;
+   top: 10px;
+    margin-top: 0px;left:0; right:0;
+}
+.template_mutual .chart-container {
+    width: 837px;
+    margin-top: 0;
+    margin: 0 auto;
+    text-align: center;
+    height: 470px;
+}
+
+/***projectpage***/
+.project_number {
+    font-size: 80px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #f3f3f3;
+    font-family: FiraSans-Regular;
+    text-align: left;
+    margin-bottom: 49px;
+}
+.project_name {
+    font-size: 20px;
+    letter-spacing: 0.6911px;
+    line-height: 30px;
+    color: #333333;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 27px;
+}
+
+.project_abstra
+{
+	font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #3a5266;
+font-family: Asap-Regular;
+text-align: left;
+}
+.project_img {
+    box-shadow: -19.092px -19.092px 0px rgba(1,98,187,0.44);
+    background-color: #3b5afb;
+}
+.btn_readmore {
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: Asap-Bold;
+    font-weight: bold;
+    text-align: center;
+  
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px #004179;
+    background-color: #005094;
+  border:0px;
+    padding-left: 38px;
+    padding-right: 44px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    margin-left: 2px;
+}
+.project_first,.project_second,.project_third 
+{
+	margin-bottom:69px;
+}
+
+.project_blog {margin-top: 23px;}
+
+.project_image {
+    width: 53%;
+    padding-left: 19px;
+}
+.project_descrip{
+    width: 47%;
+    margin-top: 15px;
+}
+
+.project_abstra {
+    font-size: 14px;
+    letter-spacing: 0.23px;
+    line-height: 26px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: justify;
+    margin-top: 6px;
+    max-width: 592px;
+   
+    margin-bottom: 16px;
+}
+
+.template_project .project_text {
+    margin: 0 auto;
+    position: relative;
+    top: 86px;
+    margin-top: 64px;
+}
+
+.project_images {padding-left: 72px;}
+
+.footer {margin-top: 27px;}
+
+
+	.project_image a:before{
+		content: "";
+    background-color: rgba(1,98,187,0.44);
+    position: absolute;
+    top: 0px;
+    left: 19px;
+    right: 53px;
+    bottom: 0px;
+    opacity: 0;
+	}
+	
+	 .project_image:hover :before {
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+.project_images a:before{
+		content: "";
+    background-color: rgba(1,98,187,0.44);
+    position: absolute;
+    top: 0px;
+    left: 72px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+	}
+	
+	 .project_images:hover :before {
+    opacity: 1;
+    transition: 0.4s ease;
+}
+
+/****sidenav_mutualfunds*****/
+
+	
+	.side_head {
+    font-size: 15px;
+        letter-spacing: 0.51px;
+    line-height: 47px;
+    color: #444444;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    padding-left: 22px;
+}
+		
+	.service-lists {
+    padding-left: 40px;
+}
+	
+	.btn_contactus {
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: Asap-Bold;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0px 2px 0px #004179;
+    background-color: #005094;
+    border: 0px;
+    padding-left: 35px;
+    padding-right: 38px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    margin-left: 0px;
+}
+	.service_list, .service_item {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    line-height: 40px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+}
+	.allservics {
+    background-color: #f3f3f3;
+    margin-bottom: 27px;
+    padding-bottom: 22px;
+}
+	
+	.download {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+     margin-top: 14px;
+    
+}
+	.broucher_content {
+    max-width: 217px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #3a5266;
+    font-family: FiraSans-Regular;
+    text-align: justify;
+    margin: 0 auto;
+   
+}
+.doc {
+    margin-top: 6px;
+}
+
+	.help_content {
+    max-width: 219px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 25px;
+    color: #3a5266;
+    font-family: FiraSans-Regular;
+    text-align: justify;
+    margin: 13px auto;
+}
+.help_content {
+    margin-bottom:0;
+}
+	.broucher {
+    background-color: #f3f3f3;
+    margin-bottom: 26px;
+    padding-bottom: 33px;
+}
+	.help {
+    background-color: #f3f3f3;
+    padding-bottom: 20px;
+}
+.pdf_icon{
+	display: inline-block;
+    /* margin-right: 26px; */
+    margin-left: 21px;
+}
+.link_pdf
+{
+	    padding-left: 14px;
+}
+	.butn {
+    text-align: center;
+    margin-top: 20px;
+}
+hr.underline {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #1b1919;
+}
+.service_list
+{
+list-style-image: url(../image/line.png);list-style-position: outside;
+}
+div#leftsidebar {
+    width: 24.1%;
+    padding-right: 43px;
+}
+.template_sdebarmutual .contentfund_blog {
+    width: 53%;
+    margin-right: 9px;
+    padding-left: 18px;
+}
+.template_sdebarmutual p.aboutmuntual_details {
+    padding-left: 20px;
+}
+.template_sdebarmutual .mychart {
+    position: relative;
+    top: 0px;
+    margin-top: 0;
+	left:0;
+	right:0;
+}
+.template_sdebarmutual .chart-container {
+    width: 837px;
+    margin-top: 0;
+    margin: 0 auto;
+    text-align: center;
+    height: 470px;
+}
+.template_sdebarmutual .contentfund_img {width: 46%;}
+.template_sdebarmutual .mutual_fundsright {width: 75.9%;}
+.template_sdebarmutual .aboutcontentfund_img {
+    width: 44.33%;
+    margin-top: 7px;
+    padding-left: 19px;
+}
+.template_sdebarmutual .benfitsmuntual_details {padding-left: 19px;}
+
+.template_sdebarmutual .benfient_service{    padding-left: 16px;}
+.template_sdebarmutual .faq {
+    margin-top: 13px;
+    margin-bottom: 0px;
+    padding-left: 16px;
+}
+
+.template_sdebarmutual  .aboutcontentfund_blog {width: 55.236%;}
+
+
+/*******aboutus******/
+.template_about .time_sev {
+    padding-left: 23px;
+}
+.about {
+    margin-top: 10px;
+    margin-bottom: 78px;
+}
+
+.aboutimg {
+    position: absolute;
+   top: 17px;
+}
+.aboutimgs {
+    position: absolute;
+    right: 81px;
+    top: 5opx;
+    top: 91px;
+    margin-top: 79px;
+}
+.aboutus_imge {
+    width: 42%;
+    position: relative;
+}
+	.aboutus_content{width: 58%;
+    padding-left: 7px;}
+
+.about_details {
+    font-size: 14px;
+    letter-spacing: 0.37px;
+    line-height: 29px;
+    color: #3a5266;
+    font-family: FiraSans-Regular;
+text-align: justify;}
+.template_about .srvic_fin {
+    font-size: 16px;
+    letter-spacing: 0.58px;
+    line-height: 38px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+}
+.template_about .footer {
+    margin-top: 70px;
+}
+.about_head
+{font-size: 20px;
+letter-spacing: 1px;
+line-height: 29px;
+color: #333333;
+font-family: Asap-Regular;
+text-align: left;
+	
+	}.team{margin-top: 7px;}
+.wedo_heads
+{
+	font-size: 20px;
+letter-spacing: 1px;
+line-height: 29px;
+color: #ffffff;
+font-family: Asap-Regular;
+text-align: left;
+}
+.wedo_content {
+    max-width: 401px;
+    font-size: 14px;
+    letter-spacing: 0.02px;
+    line-height: 26px;
+    color: #dddddd;
+    font-family: Asap-Regular;
+    text-align: justify;
+    margin-top: 17px;
+}
+.mission {
+    background-image: url(../image/wmv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 402px;
+   margin-top: 95px;
+}
+.misssion_section {
+    margin: 69px auto;
+}
+.aubout_people{width: 49.9%;}
+.about_content {
+    width: 50%;
+    padding-left: 14px;
+    margin-top: 5px;
+}
+.ourmission{padding-left: 10px;}
+.ourvision	{padding-left: 18px;}
+	.people__details {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: justify;
+    max-width: 618px;
+    
+}
+	
+	.people_choose{
+		font-size: 20px;
+letter-spacing: 1px;
+line-height: 26px;
+color: #333333;
+font-family: FiraSans-Regular;
+text-align: left;
+		
+	}
+	
+	.progress-title, .progress-value
+	{
+		font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #555555;
+font-family:Asap-Regular;
+text-align: left;
+	
+	}
+	
+	.progress {
+    height: 6px;
+    margin-bottom: 27px;
+}
+	.choose_progress {margin-top: 14px;}
+	.last_progress{margin-bottom:0;}
+	
+	
+	.progress .progress-bar{
+    border-radius: 30px;
+    box-shadow: none;
+    position: relative;
+    animation: animate-positive 2s;
+}
+
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
+.commentsection{float:right;}
+.client_comment {
+    border: 1px solid #f3f3f3;
+    position: relative;
+    top: 57px;
+    width: 49%;
+}
+.client_name {
+    text-align: right;
+    margin-right: 15px;
+}
+.comment {
+    max-width: 388px;
+    margin: 11px auto;
+}
+
+.client_img {
+    position: absolute;
+    top: -49px;
+    left: 26px;
+}
+.client_second 
+{float:right;}
+	.frame_line{width: 295px;
+    height: 306px;
+    border: 6px solid #b9b9b9;
+    position: absolute;
+    top: 68px;
+    left: 77px;
+    margin-top: 20px;}
+
+.container .progress_bar { max-width: 100%;}
+.aboutus {
+    margin-bottom: 47px;
+}
+.client_heads {
+    font-size: 20px;
+    letter-spacing: 0.px;
+    line-height: 26px;
+    color: #333333;
+    letter-spacing: 0.6px;
+    font-family: FiraSans-Regular;
+    text-align: center;
+}
+.empty_content {
+    max-width: 100%;
+    margin-bottom: 20.6%;
+}
+
+.team_img a:before {
+    content: "";
+    background-color: rgba(61,94,126,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    width: 294px;
+}
+
+
+.img_team:hover .team_img  a:before {
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+.img_team:hover .team_hover{
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+.img_team:hover .socialhover_icons{
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+
+.member_name
+{
+	font-size: 20px;
+letter-spacing: 1px;
+line-height: 26px;
+color: #ffffff;
+font-family: Asap-Regular;
+text-align: center;
+}
+.designa
+{
+	font-size: 14px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #c0c0c0;
+font-family:  Asap-Regular;
+text-align: center;
+}
+.img_team {
+    position: relative;
+    width: 24.5%;
+    margin-right: 8px;
+	}   
+	.client_img {
+    position: absolute;
+    top: -49px;
+    left: 26px;
+}
+	.img_team:nth-child(4n+4){ float: right;
+    margin-right: 0;}
+.team_hover {
+    position: absolute;
+    top: 50px;
+    left: -37px;
+    right: 0;
+    margin-top: 57px;
+    opacity: 0;
+    z-index: 999;
+}
+
+
+#about_navlist {
+    position: relative;
+    left: 0;
+    top: 4px;
+    right: 0;
+    margin: 0 auto;
+   
+    max-width: 171px;
+}
+
+#about_navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+#about_navlist li, #about_navlist a {
+    height: 44px;
+    display: block;
+}
+#aboutfacebook_icon {
+    left: -22px;
+    width: 41px;
+    background: url(../image/hover_icon.png);
+    background-repeat: no-repeat;
+}
+#aboutgoogle-plus_icon {
+    left: 21px;
+    width: 47px;
+    background: url(../image/hover_icon.png) -46px 0;
+    background-repeat: no-repeat;
+}
+#aboutinstagram_icon {
+    left: 74px;
+    width: 46px;
+    background: url(../image/hover_icon.png) -99px 0;
+    background-repeat: no-repeat;
+}
+#abouttwitter_icon {
+    left: 116px;
+    width: 46px;
+    background: url(../image/hover_icon.png)-147px 0;
+    background-repeat: no-repeat;
+}
+.socialhover_icons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 26px;
+    opacity: 0;
+    z-index: 999;
+}
+
+/****customer****/
+ .request{margin-top:50px;}
+ 
+.template_customer .contentfund_blog {
+    width: 47.31%;
+    margin-right: 0px;
+    float: right;
+}
+
+.template_customer .contentfund_img {
+    width: 50%;
+    margin-right: 33px;
+}
+
+.template_customer .mutual_head {
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+    font-family: FiraSans-Regular;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 12px;
+    letter-spacing: 0.6px;
+}
+.template_customer .mutual_det {
+    margin-bottom: 24px;
+}
+.template_customer .team {
+    margin-top: 0px;
+}
+.template_customer .muntual_details {
+    font-size: 14px;
+    line-height: 27px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: justify;
+    max-width: 100%;
+    letter-spacing: 0.569px;
+}
+
+	
+.template_customer .side_head {
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 58px;
+    color: #333333;
+    font-family: FiraSans-Regular;
+    text-align: left;
+    padding-left: 31px;
+}
+
+.template_customer .content_details {
+    margin-top: 0px;
+    letter-spacing: 0px;
+}
+.template_customer .topic, .template_customer .text_conteny	{
+		font-size: 18px;
+letter-spacing: 1px;
+line-height: 26px;
+color: #555555;
+font-family: Asap-Regular;
+text-align: center;
+	}
+	.left_project{width: 19.62%}
+	
+	.project_descr {
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.we_did{width:80%;    padding-left: 34px;}
+
+.template_customer .investment {
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 87px;
+}
+.template_customer .topic, .template_customer .text_conteny {
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    line-height: 40px;
+    color: #555555;
+    font-family: Asap-Regular;
+    text-align: left;
+    
+}.template_customer .broucher {
+    background-color: #f3f3f3;
+    margin-bottom: 26px;
+        height: 280px;
+}
+.template_customer .topic
+{    padding-left: 32px;}
+
+.solution_section {padding-left: 13px;}
+.template_customer .result_head{margin-bottom:7px;}
+.template_customer .contentfund_benfits {
+    margin-top: 22px;
+}
+.template_customer .mychart {
+    position: relative;
+    top: 0;
+    margin-top: 0px;
+}.result {
+    margin-bottom: 50px;
+}
+.result {
+    margin-bottom: 75px;
+}
+.template_customer .client_heads {
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    color: #333333;
+    font-family: FiraSans-Regular;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.team_img{position:relative;}
+.template_customer.footer { margin-top: 49px;}
+.template_customer .team_img a:before {
+    content: "";
+    background-color: rgba(61,94,126,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    width: 294px;
+    
+}
+
+
+/*****servicespage*********/
+
+.service_head {
+    font-size: 30px;
+    letter-spacing: 0.8px;
+    line-height: 29px;
+    color: #333333;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+}
+
+.growth {
+    background-color: #f3f3f3;
+    padding: 42px 0px;
+}
+
+.business_head, .best_head {
+    font-size: 18px;
+    letter-spacing: 0.656px;
+    line-height: 29px;
+    color: #555555;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 32px;
+}
+.content {
+    max-width: 226px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin: 10px auto;
+}
+.icons_business {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+.btn-read {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 19px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.read_buttons {
+    padding-left: 21px;
+}
+.business {
+    width: 23.5%;
+    margin-right: 25px;
+}
+.business:nth-child(4)
+{
+	    float: right;
+    margin-right: 0px;
+	
+}
+.offer_service {
+    margin-top: 46px;
+}
+.main_service {
+    margin-top: 10px;
+}
+.template_service .des_cont {
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 89%;
+    background-color: #2d314f;
+    width: 100%;
+    padding: 6px 7px;
+}
+
+.template_service .img_serv {
+    width: 25%;
+    margin-right: 0px;
+    position: relative;
+    margin-bottom: 57px;
+}
+.img_servs
+{height: 340px}
+.content_best {
+    max-width: 250px;
+    font-size: 16px;
+    letter-spacing: -1px;
+    line-height: 26px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+    text-align: justify;
+    margin: 12px auto;
+}
+.services_best {
+    border: 1px solid;
+    width: 100%;
+    height: 294px;
+    padding: 16px 0px;
+}
+.services_bests {
+    border: 1px solid;
+    width: 100%;
+    height: 294px;
+    padding: 16px 0px;
+}
+.saving_blog {
+    width: 49%;
+    margin-bottom: 44px;
+}
+.saving_blog:nth-child(2n+2) {
+	float:right;
+margin-right:0;}
+  p.best_head {padding-left: 15px;}
+.viewdetails{    margin-top: 10px;
+    letter-spacing: 0.4px;}
+
+.ourbest_service {
+    margin-top: 26px;
+}
+.saving_img {
+    width: 47.62%;
+    margin-right: 14px;
+}
+.saving_invesment {padding-left: 14px;}
+.saving_invesments{    padding-left: 0;
+    padding-right: 14px;}
+.service_imgright
+{
+	float: right;
+    margin-right: 0
+}
+.view_buttons {
+    padding-left: 2px;
+}
+.template_service .footer {
+    margin-top: 6px;
+}
+
+.best_heads {
+    padding-left: 13px;
+}
+.btn-read:hover {
+    color: #131212;
+    text-decoration: none;
+   
+}
+
+.saving_img a:before {
+    content: "";
+    background-color: rgba(61,94,126,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    z-index: 99;
+}
+.template_service .readmore {
+    position: absolute;
+    top: 53px;
+    left: 0;
+    right: 0px;
+    opacity: 0;
+    z-index: 999;
+    max-width: 500px;
+    margin: 79px auto;
+    text-align: center;
+}
+.saving_img:hover :before{opacity:1; transition:0.4s ease-in;}
+.saving_img:hover .readmore {
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+.best_head:hover {
+    color: #003664;
+}
+.services_best:before {
+    content: "";
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 42px;
+    right: 90%;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    margin-right: -1px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+.services_bests:before {
+    content: "";
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 40px;
+    left: 100%;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    margin-left: -31px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+
+
+/******blogdetails****/
+
+
+
+
+
+.secret{
+	background-color: #f3f3f3;
+    border-left: 2px solid #005094;
+    padding-left: 9px;
+}
+.tages {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    line-height: 26px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+    padding-left: 10px;
+}
+.tag{padding-left: 19px;}
+li#share {
+    left: 95px;
+}
+span.shares {
+    margin-left: 48px;
+}
+#sharefacebook_icon {
+    left: 198px;
+    width: 6px;
+    background: url(../image/share_logo.png) 0px 3px;
+    background-repeat: no-repeat;
+}
+#sharegoogle-plus_icon {
+    left: 211px;
+    width: 31px;
+    background: url(../image/share_logo.png) -13px 3px;
+    background-repeat: no-repeat;
+}
+#shareinstagram_icon {
+    left: 245px;
+    width: 25px;
+    background: url(../image/share_logo.png) -47px 3px;
+    background-repeat: no-repeat;
+}
+#sharetwitter_icon {
+    left: 278px;
+    width: 28px;
+    background: url(../image/share_logo.png)-80px 3px;
+    background-repeat: no-repeat;
+}
+#shareprinest_icon {
+    left: 309px;
+    width: 28px;
+    background: url(../image/share_logo.png) -111px 3px;
+    background-repeat: no-repeat;
+}
+.admin_blogcomment {
+    margin-top: 29px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 19px 36px;
+margin-left: 19px;}
+
+.admin_content {width: 83%;}
+.admin_img {
+    width: 14%;
+    margin-right: 24px;
+}
+.admin_head {
+    font-size: 17px;
+    line-height: 24px;
+    color: #333333;
+    font-family: FiraSans-Regular;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 2px;
+    letter-spacing: 0.2px;
+}
+
+span.comment_date {
+    display: inline-block;
+    letter-spacing: 0.8px;
+}
+span.replay {
+    display: inline-block;
+   
+}
+span.reply
+{padding-left: 4px;}
+
+.admin_reply {
+    float: right;
+    width: 86.7%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+	
+	.admin_replyimg{
+    width: 14%;
+    margin-right: 20px;
+}
+
+.comment_section {margin-top: 50px;}
+
+
+
+.template_blog form.form-horizontal {
+    text-align: center;
+    max-width: 100%;
+   
+}.formtext {
+    margin-right: 16px;
+    width: 48%;
+}
+.emailtext {
+    padding-left: 18px;
+}
+
+.btn-post {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 6px;
+    color: #ffffff;
+    background-color: #005094;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 43px;
+    padding-top: 18px;
+    padding-right: 46px;
+    padding-bottom: 18px;
+    font-family: Asap-Bold;
+    border-radius: 5px;
+}
+
+
+.template_blog .contentfund_blog {
+    width: 45%;
+    margin-right: 0px;
+    float: right;
+    padding-left: 0px;
+}
+
+.template_blog .contentfund_img {
+   
+    width: 50%;    margin-left: 19px;
+}
+.template_blog .muntual_details {
+    font-size: 14px;
+    line-height: 26px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: justify;
+    max-width: 100%;
+    letter-spacing: -0.1px;
+}
+.template_blog .mea {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+.serct_head{letter-spacing: -0.3px;}
+
+.template_blog .mutual_det {
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.secret {
+    background-color: #f3f3f3;
+    border-left: 2px solid #005094;
+    padding-left: 9px;
+    margin-top: 12px;
+    margin-left: 18px;
+	}
+	
+.mutual_detailscon	{font-size: 16px;font-family: Asap-Regular;
+    margin-top: 10px;
+    max-width: 900px;
+    margin: 8px auto;
+    text-align: justify;
+    line-height: 29px;
+		
+	}
+.template_blog .faq {
+    margin-top: 17px;
+    margin-bottom: 0px;
+    padding-left: 19px;
+}
+.template_blog .faq_3{   margin-top: 11px;
+    margin-bottom: 5px;}
+	
+	
+	#shareadminfacebook_icon {
+   left: 35%;
+    width: 6px;
+    background: url(../image/share_logo.png) 0px 3px;
+    background-repeat: no-repeat;
+}
+#shareadmingoogle-plus_icon {
+       left: 36.8%;
+    width: 31px;
+    background: url(../image/share_logo.png) -13px 3px;
+    background-repeat: no-repeat;
+}
+#shareadmininstagram_icon {
+   left: 41.5%;
+    width: 25px;
+    background: url(../image/share_logo.png) -47px 3px;
+    background-repeat: no-repeat;
+}
+#shareadmintwitter_icon {
+    left: 46%;
+    width: 28px;
+    background: url(../image/share_logo.png)-80px 3px;
+    background-repeat: no-repeat;
+}
+#shareadminprinest_icon {
+   left: 50.3%;
+    width: 28px;
+    background: url(../image/share_logo.png) -111px 3px;
+    background-repeat: no-repeat;
+}
+
+#adminavlist {
+    position: relative;
+    left: 0;
+    top: 7px;
+    right: 0;
+    max-width: 100%;
+}#adminavlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+.clients_img {
+    width: 10%;
+    margin-right: 0px;
+    padding-left: 15px;
+    margin-left: 4px;
+}
+#adminavlist li, #adminavlist a {
+    height: 44px;
+    display: block;
+}
+.comment_heads
+{padding-left: 20px;
+    margin-top: 19px;
+    letter-spacing: 0.6px}
+	.comment_name {
+    display: inline-block;
+    padding-right: 28px;
+    letter-spacing: 0.3px;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+	.clientcomment_content{width: 89.5%;
+    padding-left: 26px;}
+	
+	.comment_client {padding: 15px 0px;}
+	.commemt_reply{text-align: right;}
+	
+	.replyadmin_img{
+    width: 10%;
+    margin-right: 0px;
+    
+}
+
+.leavecommentsection{margin-top: 15px;
+    padding-left: 18px;}
+.commenttopic{letter-spacing: 0.6px;}
+.template_blog .tabp {
+    margin-top: 32px;
+}
+
+.template_blog.formtext {
+    margin-right: 30px;
+    width: 46.7%;
+}
+.template_blog .emailtext {padding-left: 39px;}
+.template_blog .form-group {margin-bottom: 31px;}
+.template_blog textarea.form-control {
+    height: 165px;
+    resize: none;
+}
+
+.template_blog .btn-post {
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 6px;
+    color: #ffffff;
+    background-color: #005094;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 65px;
+    padding-top: 23px;
+    padding-right: 63px;
+    padding-bottom: 23px;
+    font-family: Asap-Bold;
+    border-radius: 5px;
+}
+.template_blog .mutual_fundsright {width: 75.9%;}
+.btn-read:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+.business_head:hover { color: #3a5266;}
+
+.form-control:focus {
+    border-color: unset;
+     outline: none; 
+     -webkit-box-shadow:none;
+    box-shadow: none;
+}
+ /*****sidebar_customer***/
+ .req_cont {
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    background-color: rgba(0,0,0,.5);
+    width: 85.5%;
+    padding: 3px 11px;
+    margin-top: -56px;
+}
+
+.side_head {
+    font-size: 15px;
+    letter-spacing: 0.51px;
+    line-height: 47px;
+    color: #444444;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    padding-left: 21px;
+}
+.request {margin-top: 30px;}
+
+.help { background-color: #f3f3f3;
+    padding-bottom: 36px;
+}
+
+.template_sidebarcustomer .contentfund_blog {
+    width: 41.83%;
+    margin-right: 0px;
+    float: right;
+}
+.template_sidebarcustomer .contentfund_img {
+    width: 56%;
+    padding-left: 18px;
+    margin-right: 20px;
+}
+.template_sidebarcustomer .mutual_fundsright {width: 75.9%;}
+
+.template_sidebarcustomer .mutual_head {
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+    font-family: FiraSans-Regular;
+    text-align: left;
+    margin-top: 0;
+    letter-spacing: 0.6px;
+}
+.template_sidebarcustomer .mutual_det { margin-bottom: 24px;}
+
+.template_sidebarcustomer .muntual_details {
+    font-size: 14px;
+    line-height: 26px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: justify;
+    max-width: 100%;
+    letter-spacing: 0.3px;
+    margin-top: 13px;
+}
+.template_sidebarcustomer .paragrap{    margin-top: 0;}
+.about_remain {
+    padding-left: 20px;
+    margin-bottom: 26px;
+}
+
+.template_sidebarcustomer .left_project {
+    width: 26.3%;
+    margin-right: 15px;
+}
+
+.template_sidebarcustomer .list_invest {
+    font-size: 13px;
+    line-height: 30px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+    list-style-image: url(../image/dots.png);
+    letter-spacing: 0.2px;
+}
+.template_sidebarcustomer .investment {
+    text-align: center;
+    margin-top: 12px;
+    padding-left: 33px;
+}
+
+.template_sidebarcustomer .we_did {
+    width: 72%;
+    padding-left: 7px;
+    float: right;
+    margin-right: 0;
+}
+
+.template_sidebarcustomer .project_descr {padding-left: 20px;}
+
+.project_desphead {
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    
+    color: #333333;
+    font-family: FiraSans-Regular;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 12px;
+}
+
+.template_sidebarcustomer .topic, .template_sidebarcustomer .text_conteny {
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    line-height: 40px;
+    color: #555555;
+    font-family: Asap-Regular;
+    text-align: left;
+}
+.template_sidebarcustomer .topic {
+    padding-left: 32px;
+}
+.brouchers {
+    background-color: #f3f3f3;
+    margin-bottom: 0px;
+    padding-bottom: 7px;
+}
+.template_sidebarcustomer .solution_section {
+    padding-left: 2px;
+    float: right;
+    width: 49%;
+}
+.template_sidebarcustomer .challege {
+    padding-left: 18px;
+    margin-top: 19px;
+}
+.template_sidebarcustomer .challege_section {width: 48.4%;
+    margin-right: 19px;}
+.template_sidebarcustomer .challegesolution_para{margin-top: 6px;} .template_sidebarcustomer .solution_para{margin-top: 4px;}
+
+
+.template_sidebarcustomer .contentfund_benfits {margin-top: 20px;}
+.template_sidebarcustomer .result{padding-left: 17px;}
+
+.template_sidebarcustomer .result_content{margin-top: 6px;
+    letter-spacing: 0.25px;}
+	
+	
+.template_sidebarcustomer .chart-container {
+    width: 621px;
+    margin-top: 0;
+    margin: 0 auto;
+}
+
+.template_sidebarcustomer .mychart {
+    position: relative;
+    top: 0px;
+    margin-top: 0px;
+}
+.template_sidebarcustomer .linechart,.template_sidebarcustomer .piechart  {width: 100%;}
+
+.template_sidebarcustomer .img_team {
+    position: relative;
+    width: 33.3%;
+    margin-right: 0px;
+}
+ .nav-item:hover {
+ color: #ffffff;}
+ 
+ 
+ .socialhover_icons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 57px;
+    opacity: 0;
+    z-index: 999;
+}
+
+
+
+
+
+
+
+/***************************************************************INSURANCE PAGE************************************************************/
+.insuranchomepage3{background-color:#f7f7f7;}
+
+
+.insurancetemplate .head {
+    background-color: #3b5afb;
+    position: relative;
+    top: 0;
+    padding-bottom: 53px;
+}
+
+.insurance_navbar {
+    position: absolute;
+    top: 49px;
+    left: 0;
+    right: 0;
+    max-width: 1152px;
+    margin: 0 auto;
+}
+.insurancetemplate .navbar-right {
+    float: right!important;
+    margin-right: 0px;
+}
+.insurancetemplate .nav>li>a:focus, .insurancetemplate .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #3b5afb;
+	transition:0.4s ease-in;
+}
+
+.insurancetemplate .navgation {
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 0px;
+    padding-bottom: 22px;
+}
+.insurancetemplate .logo {
+    padding: 0;
+    margin-top: 26px;
+    padding-left: 19px;
+}
+.insurancetemplate ul.nav.navbar-nav.navbar-right {
+    margin-top: 31px;
+    margin-right: 4px;
+}
+.insurancetemplate .nav>li>a {padding: 9px 12px;}
+.insurancetemplate  li.nav-item {margin-right: 9px;}
+.insurancetemplate li.nav-item:nth-child(7) {
+    margin-right: 16px;
+    float: right;
+}
+.insurancetemplate .breadcrumb {
+    padding: 7px 0px;
+    margin-bottom: 5px;
+    list-style: none;
+    background-color: unset;
+    border-radius: 0px;
+    border-bottom: 1px solid;
+}
+.insurancetemplate .footer {background-color:#191f38;background-image: unset;}
+.insurancetemplate #navlist {
+    position: relative;
+    left: 15px;
+    top: 19px;
+    right: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+
+.insurancetemplate .footer {margin-top: 50px;}
+.insurancetemplate .right_footer {width: 37%;}
+.insurancetemplate .left_footer {width: 63%;}
+.insurancetemplate .navi_head {width: 50%;}
+.insurancetemplate .nav_item {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    color: #d6d6d6;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.insurancetemplate .use{ padding-left: 2px;}
+  .insurancetemplate  .use_list{ padding-left: 4px;}
+.insurancetemplate .contus {
+    float: left;
+    width: 58.5%;
+    padding-left: 56px;
+}
+.insurancetemplate .mailid {
+    padding-left: 9px;
+    letter-spacing: 0.5px;
+}
+.insurancetemplate #navlist {
+    position: relative;
+    left: 4px;
+    top: 14px;
+    right: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.insurancetemplate .new_foot{
+	    float: right;
+    padding-left: 4px;
+    width: 41%;
+}
+.insurancetemplate .email {
+    display: inline-block;
+    width: 90%;
+    height: 28px;
+    padding: 7px 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+}
+.insurancetemplate .group {
+    margin-top: 23px;
+}
+
+.insurancetemplate .loc_cont{padding-left: 14px;}
+
+.insurancetemplate .copyrights {
+    width: 100%;
+    padding-left: 5px;
+}.insurancetemplate .footerright {
+    font-size: 14px;
+    letter-spacing: 1.59px;
+    color: #b9b9b9;
+    font-family: Asap-Regular;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 24px;
+}
+
+
+/*****contactpage****/
+
+.insurancetemplate_contact .map {
+    height: 472px;
+    margin-top: 26px;
+}
+
+.insurancetemplate_contact .getintouch {
+    width: 50%;
+    margin-right: 0px;
+    padding-right: 61px;
+}
+.insurancetemplate_contact .info {
+    padding-left: 4px;
+}
+.insurancetemplate_contact  .getintouchme {
+    margin-top: 45px;
+}
+.insurancetemplate_contact .form-control.name {
+    display: block;
+    width: 89.6%;
+    height: 38px;
+    padding: 6px 10px;
+}
+.insurancetemplate_contact .form-group {
+    margin-bottom: 22px;
+}
+.insurancetemplate_contact .panel-heading {padding: 7px 19px;}
+.insurancetemplate_contact .btn-send {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px 72px;
+    background-color: #005094;
+    border-radius: 0;
+    border: 0px;
+}
+.insurancetemplate_contact .form-group.message {
+    margin-bottom: 21px;
+}
+.insurancetemplate_contact .learn_buttons {
+    display: block;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.maps {
+    width: 100%;
+    height: 115px;
+    margin-top: 19px;
+}
+
+.insurancetemplate_contact .footer {
+    margin-top: 30px;
+}
+/*****insurance_aboutpage***/
+
+.insurancetemplate_about .about {
+    margin-top: 8px;
+    margin-bottom: 60px;
+}
+.insurancetemplate_about .people_choose {
+    font-size: 20px;
+    letter-spacing: 0.7px;
+    line-height: 26px;
+    color: #333333;
+    font-family: FiraSans-Regular;
+    text-align: left;
+}
+.insurancetemplate_about .team_about{margin-top: 9px;}
+.insurancetemplate_about .footer {
+    margin-top: 69px;
+}
+
+/*************newspage********/
+.insurancetemplate_news .rec_post {margin-top: 25px;}
+
+.insurancetemplate_news .footer {margin-top: 28px;}
+/***project****/
+
+.insurancetemplate_project .footer {margin-top: 28px;}
+
+
+
+/****finace*****/
+.insurancetemplate_financeplanning .contentfund_img {padding-left: 0px;}
+
+.insurancetemplate_financeplanning div#leftsidebar {padding-left: 43px; padding-right:0px}
+
+.insurancetemplate_financeplanning .about_remain {padding-left: 0px;}
+.insurancetemplate_financeplanning .project_descr { padding-left: 0px;}
+.insurancetemplate_financeplanning .challege {padding-left: 0px;}
+.insurancetemplate_financeplanning .result {padding-left: 0px;}
+
+.insurancetemplate_financeplanning .chart{
+    margin-top: 74px;
+}
+.insurancetemplate_financeplanning canvas#chart-area {
+    width: 676px !important;
+    height: 336px !important;
+}
+/***sidebar_planning****/
+.insurancetemplatesidebar_financeplanning canvas#chart-area {
+  width: 956px !important;
+    height: 478px! important;
+}
+.insurancetemplatesidebar_financeplanning div#leftsidebar {
+    width: 24.1%;
+    padding-left: 43px;
+    padding-right: 0;
+}
+.insurancetemplatesidebar_financeplanning .contentfund_img {
+    width: 56%;
+    padding-left: 0px;
+    margin-right: 20px;
+}
+
+.insurancetemplatesidebar_financeplanning .about_remain {
+    padding-left: 0px;
+    margin-bottom: 26px;
+}
+.insurancetemplatesidebar_financeplanning .project_descr {
+    padding-left: 2px;
+}
+.insurancetemplatesidebar_financeplanning .challege {
+    padding-left: 0px;
+    margin-top: 19px;
+}
+
+.insurancetemplatesidebar_financeplanning .result {
+    padding-left: 0px;
+}
+
+
+/*****service*****/
+.insurancetemplate_service .growth {
+    background-color: #ffffff;
+    padding: 0px 0px;
+    margin-top: 20px;
+}
+.insurancetemplate_service .business_head,.insurancetemplate_service .best_head {
+        text-align: center;
+    padding-left: 0px;
+}
+.insurancetemplate_service .content {
+    max-width: 100%;
+   
+    text-align: center;
+    margin: 10px auto;
+}
+.insurancetemplate_service .read_buttons {
+    padding-left: 0px;
+    text-align: center;
+}
+
+
+.insurancetemplate_service .img_serv {
+    width: 24%;
+    margin-right: 16px;
+    position: relative;
+    margin-bottom: 57px;
+}
+.insurancetemplate_service .img_serv:nth-child(4n+4) {float:right; margin-right:0px;}
+
+.insurancetemplate_service .des_cont {
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    color: #555555;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    background-color: #f1f1f1;
+    width: 100%;
+    padding: 6px 7px;
+    z-index: 999;
+}
+.insurancetitle{font-size: 16px;
+line-height: 27px;
+color: #3a5266;
+font-family:FiraSans-Regular;
+text-align: center;}
+
+
+.getquote_img {width: 39.8%;}
+.getquote_content {width: 60.1%;}
+.square_icons {
+    max-width: 124px;
+    height: 90px;
+    border: 1px solid;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.icon_slider {
+    margin-top: 29px;
+    margin-bottom: 50px;
+}
+
+.insurancetemplate_service .btn-send {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 21px 49px;
+    background-color: #44d5e9;
+    border-radius: 0;
+}
+
+
+/*****business*****/
+.insurancetemplate_businessservice .getinsurance {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.insurancetemplate_businessservice .form-group { margin-bottom: 42px;}
+.insurancetemplate_businessservice form.form-horizontal {
+  
+    max-width: 100%;
+    margin: 0;
+}
+
+.insurancetemplate_businessservice .learn_buttons {
+    display: block;
+    margin-left: 0px;
+    text-align: center;
+}
+.insurancetemplate_businessservice .btn-send {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 21px 71px;
+    background-color: #3b5afb;
+    border-radius: 0;
+}
+
+.insurancetemplate_businessservice .getquote_content {
+    width: 60.1%;
+    padding-left: 35px;
+}
+ .insurancetemplate_businessservice .nav>li>a.tablicons{
+    padding: 0;
+}
+.insurancetemplate_businessservice .form-control {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 6px 10px;
+}
+.insurancetemplate_businessservice .benfitsmuntual_details {
+    font-size: 14px;
+    line-height: 27px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: justify;
+    letter-spacing: 0px;
+    margin-top: 9px;
+}
+.insurancetemplate_businessservice .mutual_head {
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+    font-family: FiraSans-Regular;
+    text-align: left;
+    margin-top: 0;
+    letter-spacing: 0.4px;
+}
+
+
+
+.insurancetemplate_businessservice .nav-tabs>li>a {
+    margin-right: 19px;
+    line-height: 1.42857143;
+    border: 0px solid transparent;
+    border-radius: 0px 0px 0 0;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.nav-tabs {border-bottom: 0px solid #ddd;}
+
+.business_title {
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    line-height: 40px;
+    color: #333333;
+    font-family: Asap-Bold;
+    font-weight: bold;
+    text-align: center;
+}
+
+.para_bus {
+    max-width: 385px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin: 0 auto;
+}
+
+
+div#sectionA, div#sectionB, div#sectionC, div#sectionD {
+    background-color: #f5f5f5;
+    padding: 20px 0px;
+    border: 1px solid #f5f5f5;
+}
+.product_lib{padding-left: 8px;}
+
+.stratup_contents {
+    max-width: 1222px;
+     font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: justify;
+    margin: 5px auto;
+}
+.parabusi_head {
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #555555;
+    font-family: Asap-Regular;
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.insurancetemplate_businessservice .footer {
+    margin-top: 43px;    margin-top: 54px;
+}
+
+/****sidebar_businessservice****/
+.insurancetemplate_sidebusinessservice div#leftsidebar {
+    width: 24.1%;
+    padding-left: 43px;
+    padding-right: 0;
+}
+
+
+
+.insurancetemplate_sidebusinessservice .form-group {
+    margin-bottom: 42px;
+}
+.insurancetemplate_sidebusinessservice form.form-horizontal {
+  
+    max-width: 100%;
+    margin: 0;
+}
+
+.insurancetemplate_sidebusinessservice .learn_buttons {
+    display: block;
+    margin-left: 0px;
+    text-align: center;
+}
+.insurancetemplate_sidebusinessservice .btn-send {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 21px 71px;
+    background-color: #3b5afb;
+    border-radius: 0;
+}
+
+.insurancetemplate_sidebusinessservice .getquote_content {
+    width: 60.1%;
+    padding-left: 50px;
+}
+ .insurancetemplate_sidebusinessservice .nav>li>a.tablicons{
+    padding: 0;
+}
+.insurancetemplate_sidebusinessservice .nav-tabs>li>a {
+    margin-right: 19px;
+    line-height: 1.42857143;
+    border: 0px solid transparent;
+    border-radius: 0px 0px 0 0;
+}
+
+.insurancetemplate_sidebusinessservice .para_bus {
+max-width: 264px; padding-left: 16px;}
+.insurancetemplate_sidebusinessservice .nav-tabs>li>a {
+    margin-right: 4px;
+    line-height: 1.42857143;
+    border: 0px solid transparent;
+    border-radius: 0px 0px 0 0;
+}
+.insurancetemplate_sidebusinessservice .footer {
+       margin-top: 54px;
+}
+/****insuranchomepage****/
+.insuranchomepage .banner_text {
+    position: absolute;
+    float: left;
+    top: 22%;
+    right: unset;
+    left: 32px;
+}
+.stagebusiness {
+    margin-top: 25px;
+}
+
+.insuranchomepage .btn-texts {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px 42.9px;
+    background-color: #44d5e9;
+    border: 0px;
+    border: 0px;
+}
+.insuranchomepage .learn_buttons {
+    display: block;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 15px;
+    width: 98%;
+}
+.insuranchomepage .plans {
+    max-width: 98%;
+    font-size: 59px;
+    line-height: 87px;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+}
+.insuranchomepage .plan {
+    font-size: 58px;
+    letter-spacing: 2.3px;
+    line-height: 88px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    max-width: 712px;
+}
+
+.insuranchomepage .services_main a:before {
+    content: "";
+    background-color: rgba(75,98,220,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    z-index: 99;
+}
+
+.insuranchomepage .ourmain.service {margin-top: 56px;}
+
+
+.insuranchomepage .infor {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #fff;
+}
+.insuranchomepage .des_cont {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 87%;
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    padding: 7px 10px;
+}
+.insuranchomepage .yearof.success {
+    margin-top: 0px;
+    margin-bottom: 53px;
+}
+.insuranchomepage .des_line {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 37px;
+}
+.insuranchomepage .protect_cont {
+    max-width: 684px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: justify;
+    margin-top: 30px;
+    padding-left: 0px;
+    text-indent: 11px;
+}
+.insuranchomepage .yearOfprovide{
+    margin-top: 64px;
+    width: 55%;
+}
+.insuranchomepage .yearimage{
+    margin-top: -5px;
+    width: 45%;
+}
+.insuranchomepage .yearboyimage {
+    background-image: url(../image/boymen.png);
+    height: 475px;
+    max-width: 402px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    float: right;
+}
+
+
+.insuranchomepage .servicetitle{font-size: 14px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #3a5266;
+font-family: Asap-Regular;
+text-align: center;
+}
+.iconsservice{text-align:center;}
+
+.homesuccess {
+    margin-top: 0px;
+}
+
+.insuranchomepage .descri {
+    position: absolute;
+    top: 84px;
+    left: 0;
+    right: 6px;
+    margin-top: 15px;
+    opacity: 0;
+    text-align: center;
+}
+.insuranchomepage .slider_section {
+    margin-bottom: 16px;
+}
+.insuranchomepage .getquote_content {
+    width: 59.5%;
+    padding-left: 53px;
+}
+.insuranchomepage .icon_slider {
+    margin-top: 34px;
+    margin-bottom: 58px;
+}
+.insuranchomepage .getquote_img { width: 40.5%;}
+.insuranchomepage .service_head {
+    font-size: 30px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    color: #333333;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+   
+    margin-left: 31px;
+}
+
+.hover_image{margin: 0 auto;}
+
+.insuranchomepage .our_img a:before {
+    content: "";
+    background-color: rgba(75,98,220,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+}
+.insuranchomepage .img_proj {
+    position: relative;
+    width: 23.4%;
+    margin-right: 26px;
+}
+.insuranchomepage .project {
+    margin: 34px 0px;
+}
+.insuranchomepage .img_proj:nth-child(3) {
+    float: left;
+     position: relative;
+    width: 23%;
+    margin-right: 32px;
+}
+.insuranchomepage .img_proj:nth-child(4) {
+    float: right;
+    margin-right: 0px;
+}
+
+.progresscounter{
+	background-image:url(../image/circle-banner-bg.jpg);
+       height:332px;
+	   background-repeat:no-repeat;
+	   background-size:cover;
+}
+.insuranchomepage .getinsurance {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.insuranchomepage .form-control {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 5px 10px;
+}
+.insuranchomepage .btn-send {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 21px 71px;
+    background-color: #44d5e9;
+    border-radius: 0;
+}
+.insuranchomepage form.form-horizontal {
+    text-align: center;
+    max-width: 621px;
+    margin: 0px auto;
+}
+.insuranchomepage .news_cont {
+    position: absolute;
+    top: 50%;
+    bott: 50px;
+    margin-top: 72px;
+    bottom: 0px;
+    z-index: 999;
+    opacity: 0;
+}
+.insuranchomepage .news_img a:before {
+    content: "";
+    background-color: rgba(168,168,168,0.43);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    z-index: 99;
+}
+.insuranchomepage .img_rect:hover .news_img a:before{opacity:1; transition:0.4s ease-in;}
+
+
+.insuranchomepage .img_rect:hover .news_cont{opacity:1; transition:0.4s ease-in;}
+
+.insuranchomepage .finan {
+   font-size: 18px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #ffffff;
+font-family: FiraSans-Regular;
+text-align: left;
+}
+.insuranchomepage .name_input {
+    width: 44%;
+    padding-left: 15px;
+}
+.insuranchomepage .email_input {
+    width: 41.5%;
+    float: right;
+}
+
+.insuranchomepage .footer {margin-top: 50px;}
+.insuranchomepage .right_footer {width: 37%;}
+.insuranchomepage .left_footer {width: 63%;}
+.insuranchomepage .navi_head {width: 50%;}
+.insuranchomepage .nav_item {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    color: #d6d6d6;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.insuranchomepage .use{ padding-left: 2px;}
+  .insuranchomepage  .use_list{ padding-left: 4px;}
+.insuranchomepage .contus {
+    float: left;
+    width: 58.5%;
+    padding-left: 56px;
+}
+.insuranchomepage .mailid {
+    padding-left: 9px;
+    letter-spacing: 0.5px;
+}
+.insuranchomepage #navlist {
+    position: relative;
+    left: 4px;
+    top: 14px;
+    right: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.insuranchomepage .new_foot{
+	    float: right;
+    padding-left: 4px;
+    width: 41%;
+}
+.insuranchomepage .email {
+    display: inline-block;
+    width: 90%;
+    height: 28px;
+    padding: 7px 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+}
+.insuranchomepage .group {
+    margin-top: 23px;
+}
+
+.insuranchomepage .loc_cont{padding-left: 14px;}
+/****************************insurancehomepagesecond**********************************/
+.insuranchomepage2 .icons {
+    width: 30%;
+    text-align: center;
+}
+
+.insuranchomepage2 .followus_content{width: 70%;}
+
+
+
+  .insuranchomepage2 #navlist {
+    position: relative;
+    left: 0;
+    top: 4px;
+    right: 0;
+    margin: 0 auto;
+   
+    max-width: 171px;
+}
+
+.insuranchomepage2 #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+.insuranchomepage2 #navlist li, .insuranchomepage2 #navlist a {
+    height: 44px;
+    display: block;
+}
+.insuranchomepage2 #facebook_icon {
+    left: 1px;
+    width: 10px;
+    background: url(../image/insuranceheadericons.png);
+    background-repeat: no-repeat;
+}
+.insuranchomepage2 #google-plus_icon {
+    left: 7px;
+    width: 19px;
+    background: url(../image/insuranceheadericons.png) -9px 0;
+    background-repeat: no-repeat;
+}
+.insuranchomepage2 #instagram_icon {
+    left: 29px;
+    width: 20px;
+    background: url(../image/insuranceheadericons.png) -34px 0;
+    background-repeat: no-repeat;
+}
+.insuranchomepage2 #twitter_icon {
+    left: 47px;
+    width: 20px;
+    background: url(../image/insuranceheadericons.png)-55px 0;
+    background-repeat: no-repeat;
+}
+
+.insuranchomepage2 #prinest_icon {
+    left: 66px;
+    width: 27px;
+    background: url(../image/insuranceheadericons.png) -43px 0;
+    background: url(../image/insuranceheadericons.png) -77px 0;
+    background-repeat: no-repeat;
+}
+
+.insuranchomepage2 .heads {
+    padding: 22px 0px;
+}
+.insuranchomepage2 .banners_sev {
+    margin-top: 47px;
+}
+
+.insuranchomepage2 .main_service {
+    margin-top: 75px;
+}
+.insuranchomepage2 .service_head {
+    font-size: 34px;
+    letter-spacing: 1.1px;
+    line-height: 29px;
+    color: #333333;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+}
+
+	.insuranchomepage2 .navbarhompagesecond{background-color:#001777;}
+	
+	.insuranchomepage2 .navgation {
+    background-color: unset;
+    margin-bottom: 0px;
+    border: 0px;
+    padding: 16px 0px;
+}
+
+.insuranchomepage2  .nav-item {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 6px;
+    color: #fff;
+    font-family: Asap-Regular;
+    text-align: left;
+}
+.insuranchomepage2 .navbar-btn {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+	background-color:#ff0068;
+	font-size: 20px;
+letter-spacing: 0px;
+
+color: #ffffff;
+font-family: Asap-Bold;
+font-weight: bold;
+text-align: center;
+}
+.insuranchomepage2 .navbar-nav {
+    float: left;
+    margin: 0;
+    padding: 10px 0px;
+}
+.insuranchomepage2 .banner_text {
+    position: absolute;
+    float: left;
+    top: 30%;
+    right: unset;
+}
+.insuranchomepage2 .plan {
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 83px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    max-width: 474px;
+}
+.insuranchomepage2 .subpara{max-width: 459px;
+
+font-size: 16px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #ffffff;
+font-family:Asap-Regular;}
+
+.learn_buttons {
+    display: block;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.insuranchomepage2 .btn-texts {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px 38px;
+    background-color: #ff11a0;
+    border: 0px;
+}
+
+.insuranchomepage2 .growth {
+    background-color: #ffffff;
+    padding: 0px 0px;
+    margin-top: 20px;
+}
+.insuranchomepage2 .content {
+    max-width: 100%;
+    text-align: center;
+    margin: 31px auto;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+}
+.insuranchomepage2 .business_head, .insuranchomepage2 .best_head {
+    text-align: center;
+    padding-left: 0px;
+}
+.insuranchomepage2 .read_buttons {
+    padding-left: 0px;
+    text-align: center;
+}
+.insuranchomepage2 .health_insurance {
+    background-image: url(../image/health-insurance-banner.jpg);
+    height: 509px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 21px;
+}
+	
+	
+	.insuranchomepage2 .service_heads {color: #fff; text-align:left;}
+   .content_insur{max-width: 589px;
+
+font-size: 16px;
+letter-spacing: 0px;
+line-height: 26px;
+color: #ffffff;
+font-family:  Asap-Regular;
+text-align: justify;}
+
+.assureserv_content{width: 70%;}
+
+.serv_icons {
+    width: 30%;
+    text-align: center;
+   
+    padding: 26px 0px;
+}
+
+.title_serv	{font-size: 14px;
+letter-spacing: 0px;
+line-height: 29px;
+color: #222222;
+font-family: Asap-Regular;
+text-align: center;}
+.title_content{
+	max-width: 233px;
+
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #3a5266;
+font-family:Asap-Regular;
+text-align: right;
+}
+.service_insure{margin-top: 50px;}
+
+
+
+
+.insuranchomepage2 .frameline {
+    max-width: 364px;
+    height: 498px;
+    border: 6px solid #ff11a0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    right: 0;
+    margin: 0 auto;
+}
+.insuranchomepage2 .girl_services {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 63px;
+    text-align: center;
+}
+.assure_service { margin-top: 50px;}
+
+.insuranchomepage2 .empty_content {
+    max-width: 100%;
+    margin-bottom: 46.6%;
+}
+.insuranchomepage2 .ourmain_service {
+    background-image: url(../image/project-banner-2.jpg);
+    height: 728px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 43px 0px;
+    margin-top: 5px;
+}
+.insuranchomepage2 .getinsurance {
+    margin-top: 94px;
+    margin-bottom: 90px;
+}
+.insuranchomepage2 .btn-send {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 21px 71px;
+    background-color: #ff11a0;
+    border-radius: 0;
+}
+.phonequestion {
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 41px;
+    color: #ffffff;
+    font-family: FiraSans-Regular;
+    text-align: center;
+}
+
+.phone_num {
+    font-size: 59px;
+    letter-spacing: 2px;
+    line-height: 72px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    text-align: center;
+    margin-top: 30px;
+}
+.insuranchomepage2 .ourserv_head {
+    font-size: 32px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #333333;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+}
+.insuranchomepage2 .rec_post {
+    margin-top: 48px;
+}
+.contactpage {
+    background-image: url(../image/contact-us-banner.jpg);
+    height: 279px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0px;
+    margin-top: 98px;
+}
+.question{ margin-top: 75px;}	
+	
+.insuranchomepage2 .frameset_slider {
+    margin: 0px auto;
+    text-align: center;
+    background-color: #fff;
+    border-top: 8px solid #ff228b;
+    border-radius: 6px;
+    height: 100%;
+    width: 400px;
+    padding-top: 43px;
+    padding-bottom: 65px;
+}
+	
+	.insuranchomepage2 .news_img {
+    position: relative;
+    width: 280px;
+    margin: 0 auto;
+}
+
+.insuranchomepage2 .news_cont{width: 280px;
+    margin: 0 auto;}
+	
+	.insuranchomepage2 .latestnews {
+    background-color: #f5f5f5;
+    padding: 52px 0px;
+}
+
+.finans {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #444444;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 0px;
+    word-spacing: 0px;
+}
+.insuranchomepage2 .mea {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+
+.insuranchomepage2 .news_img a:before {
+    content: "";
+    background-color: rgba(253,105,176,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    z-index: 99;
+}
+.insuranchomepage2 .head_ser {
+    /* margin-top: 28px; */
+    padding-top: 39px;
+}
+.insuranchomepage2  .news_img:hover :before {
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+
+.insuranchomepage2 .newsletter_blog
+{
+	background-image: url(../image/newsletterbg.jpg);
+    height: 99px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	}
+	.newsletterblog {
+    font-size: 32px;
+    line-height: 27px;
+    color: #ffffff;
+    font-family: FiraSans-Regular;
+    text-align: left;
+}
+.insuranchomepage2 .email {
+    display: inline-block;
+    width: 50%;
+    height: 28px;
+    padding: 7px 8px;
+    font-size: 14px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+}
+.insuranchomepage2 .group {
+    margin-top: 0px;
+    margin: 17px auto;
+    text-align: right;
+}
+.insuranchomepage2 .signup_blog {
+    margin-top: 38px;
+}
+.insuranchomepage2 .btn-get {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    
+    padding: 21px 22px;
+    background-color: #ff11a0;
+    border-radius: 0;
+    margin-top: 20px;
+    display: block;
+    
+}
+.footer_section{background-image: url(../image/insurfooterbanner.jpg);
+    height: 389px;
+    background-repeat: no-repeat;
+    background-size: cover;}
+	
+	.insuranchomepage2 .right_footer {
+    width: 43%;
+}
+.insuranchomepage2 .left_footer {
+    width: 50%;
+}
+.footerconternt{margin-top:50px;}
+.copyrights{width:80%;}
+.connect_us {
+    width: 20%;
+}
+.insuranchomepage2 .footerright {
+    font-size: 14px;
+    letter-spacing: 1.59px;
+    color: #b9b9b9;
+    font-family: Asap-Regular;
+    text-align: left;
+    padding-left: 2px;
+    margin-top: 36px;
+}
+
+.insuranchomepage2 .insurefooter {
+    margin-top: 35px;
+}
+.insuranchomepage2 .footerconternt {
+    margin-top: 35px;
+}
+.insuranchomepage2 .navi_head {
+    width: 46%;
+}
+
+/***************************insurancehomepagethree*************************/
+.insuranchomepage3 .banner_text {
+    position: absolute;
+    float: left;
+    top: 30%;
+    right: unset;
+    left: 50px;
+}
+.insuranchomepage3 .plan {
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 83px;
+    color: #ffffff;
+    font-family: FiraSans-Regular;
+    font-weight:unset;
+    text-align: left;
+    max-width: 474px;
+}
+.insuranchomepage3 .subpara {
+    max-width: 459px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+}
+
+.insuranchomepage3 .btn-texts {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px 38px;
+    background-color: #ffb500;
+    border: 0px;
+}
+
+.insuranchomepage3 .slider_section {
+    position: relative;
+}
+
+.insuranchomepage3 header
+{position: absolute;
+    width: 100%;
+    top: 0;
+	}
+	
+	
+
+.insuranchomepage3 .navgation {
+    background-color: #76767600;
+    margin-bottom: 0px;
+    border: 0px;
+    max-width: 641px;
+    margin: 0 auto;
+}
+.insuranchomepage3 .nav-item {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 6px;
+    color: #fff;
+    font-family: Asap-Regular;
+    text-align: left;
+}
+.insuranchomepage3 .head {
+    background-color: #9990;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+}
+.assure_logos{    margin: 0 auto;}
+
+.insuranchomepage3 .logo_img{width: 57%;}
+
+.insuranchomepage3 .callus {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #fffefe;
+    font-family: Asap-Regular;
+    margin-right: 0px;
+    text-align: right;
+}
+.contancts{float: right;
+    width: 19.33%;}
+	
+	.insuranchomepage3 .contact{ width: 19.33%}
+	
+	.insuranchomepage3 .banners_sev {margin-top: 0px;}
+	
+	.insuranchomepage3 .main_service {
+    margin-top: 0px;
+}
+
+
+.insuranchomepage3 .icons_business {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+    position: absolute;
+    top: -33px;
+    
+    left: 0;
+    right: 0;
+}
+
+.insuranchomepage3 .frameborder {
+    border: 1px solid #ffc586;
+    position: relative;
+    /* padding: 85px 0px; */
+    padding-top: 73px;
+    padding-bottom: 20px;
+}
+.insuranchomepage3 .content {
+    max-width: 226px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: center;
+    margin: 10px auto;
+}
+.insuranchomepage3 .business_head, .insuranchomepage3  .best_head {
+    font-size: 18px;
+    letter-spacing: 0.656px;
+    line-height: 29px;
+    color: #555555;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 0px;
+}
+.insuranchomepage3 .read_buttons {
+    padding-left: 0px;
+    text-align: center;
+}
+
+.insuranchomepage3 .growths {margin-top: 40px;}
+
+
+	
+	.insuranchomepage3 .insur_get{
+		float: right;
+    background-color: rgba(0, 0, 0, 0.46);
+    padding: 20px 40px;
+    margin-top: 50px;
+	}
+	
+	.insuranchomepage3 .getquote_content { width: 100%;}
+	
+	.insuranchomepage3 .form-group {
+    margin-bottom: 33px;
+}
+
+.insuranchomepage3 form.form-horizontal {
+    text-align: center;
+    max-width: 266px;
+    margin: 18px auto;
+}
+.insuranchomepage3 .learn_buttons {
+    display: block;
+    margin-left: 0px;
+    text-align: center;
+}
+.insuranchomepage3 .getqurto {
+    background-image: url(../image/insurequotesbanner.jpg);
+    height: 562px;
+    background-repeat: no-repeat;
+    background-size: cover;
+	margin-top:50px;
+}
+
+.insuranchomepage3 .btn-send {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 21px 71px;
+    background-color: #ffb500;
+    border-radius: 0;
+}
+
+.insuranchomepage3 .whatclient{
+	font-size: 38px;
+letter-spacing: 2px;
+line-height: 41px;
+color: #ffffff;
+font-family:FiraSans-Bold;
+font-weight: bold;
+}
+
+.insuranchomepage3 .content_best {
+    max-width: 302px;
+    font-size: 15px;
+    letter-spacing: -1px;
+    line-height: 25px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: left;
+    text-align: justify;
+    margin: 0px auto;
+}
+.insuranchomepage3 .services_best:before {
+    content: "";
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 98px;
+    right: 47%;
+    border-bottom: 1px solid #ffb500;
+    border-right: 1px solid #ffb500;
+    border-left: 0px solid;
+    margin-right: 0px;
+    background: #f8f8f8;
+    transform: rotate(45deg);
+    margin-top: 19px;
+}
+
+
+
+.insuranchomepage3 .services_best {
+    border: 1px solid #ffb500;
+    width: 100%;
+    height: 130px;
+    padding: 10px 0px;
+}
+
+.insuranchomepage3 .clients_img {
+    width: 26%;
+    margin-right: 0px;
+    /* padding-left: 15px; */
+    /* margin-left: 4px; */
+    margin: 27px auto;
+}
+.insuranchomepage3 .clientname{font-size: 18px;
+letter-spacing: 1px;
+line-height: 27px;
+color: #333333;
+font-family: FiraSans-Bold;
+text-align:center;}
+
+
+.insuranchomepage3 .ourclientsays {
+    margin-top: 62px;
+    margin-bottom: 50px;
+}
+
+
+.insuranchomepage3 .what_client	{font-size: 18px;
+letter-spacing: 1px;
+line-height: 27px;
+color: #fff;
+font-family: FiraSans-Regular;margin-top: 22px;
+	}
+	.insuranchomepage3 .testmonal
+	{
+    padding-left: 50px;
+    width: 67%;
+}
+	.insuranchomepage3 .whysay
+	{
+		
+		background-color: #000;
+    padding: 38px 33px;    width: 33%
+	}
+	
+	.insuranchomepage3 .test_content{ width: 46%;}
+	
+	.insuranchomepage3 .test_content:nth-child(2n+2){float:right;}
+	
+	
+	
+	.insuranchomepage3 .ourproject_ser {
+    background-image: url(../image/insureproject_banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 598px;
+    margin-top: 48px;
+    padding: 50px 50px;
+    margin-bottom: 50px;
+}
+
+.insuranchomepage3 .our_imgs:hover :before {
+    opacity: 1;
+    transition: 0.4s ease-in;
+}
+.insuranchomepage3 .our_imgs{position: relative;}
+.insuranchomepage3 .our_imgs a:before {
+    content: "";
+    background-color: rgba(251,187,33,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+	
+}
+
+.insuranchomepage3 .project_number {
+    font-size: 80px;
+    letter-spacing: 2px;
+    line-height: 69px;
+    color: #ffb500;
+    font-family: FiraSans-Regular;
+    text-align: left;
+    margin-bottom: 6px;
+}
+.slide_subcont{width: 80%;}
+.project_count{width:20%;}
+
+.insuranchomepage3 .ourserv_head {
+    font-size: 52px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #fff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+}
+
+
+.insuranchomepage3 .ourserv_heads {
+    font-size: 52px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #000;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+	
+}
+
+.insuranchomepage3 .frame_link
+{max-width: 294px;
+height: 294px;
+background-color: #e7e7e7;
+position:relative;
+top:0;
+}
+
+.insuranchomepage3 .news_cont {
+    padding: 5px 20px;
+}
+
+
+.insuranchomepage3 .finans_insu {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #444444;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 0px;
+    word-spacing: 0px;
+}
+
+.insuranchomepage3 .last_cint{max-width: 254px;
+
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 28px;
+color: #3a5266;
+font-family:Asap-Regular;
+text-align: left;}
+
+
+.insuranchomepage3 .news_blog{
+    width: 24%;
+    margin-right: 16.8px;
+}
+
+.insuranchomepage3 .news_blog:nth-child(4)
+{float:right;
+margin-right:0}
+
+
+.insuranchomepage3 .frame_link:before {
+    content: "";
+    background-image: url(../image/blog-5.jpg);
+    height: 294px;
+    width: 100%;
+    position: absolute;
+	left:0;
+	right:0;
+    opacity: 0;
+	background-color: rgb(80,71,66,0.3)
+}
+
+.insuranchomepage3 .news_blog:hover .frame_link:before
+{opacity:0.3; transition:0.4s ease-in; }
+.insuranchomepage3 .news_blog:hover .date_link
+{opacity:1; transition:0.4s ease-in; }
+
+.insuranchomepage3 .calcu {
+    background-color: #ffb500;
+    width: 50px;
+    height: 50px;
+  
+}
+
+.insuranchomepage3 .hover_dates, .insuranchomepage3 .hover_mon {
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #000000;
+    font-family: Asap-Regular;
+    text-align: center;
+}
+.insuranchomepage3 .date_link{
+	opacity: 0;
+    position: absolute;
+ 
+    top: 0;
+    top: 0;
+    left: 30px;
+}
+ .insuranchomepage3 .news_blog:hover .histr{ display:none; }
+ 
+.insuranchomepage3  .frame_link:after {
+    content: "";
+    background: rgba(84,86,89,0.5);
+    position: absolute;
+	opacity:0;
+}
+.insuranchomepage3 .news_blog:hover .frame_link:after {opacity:1;}
+
+.insuranchomepage3 .lastest_news {margin-top: 50px;}
+.insuranchomepage3 .insmap {
+    height: 398px;
+    margin-top: 27px;
+	position:relative;
+}
+
+
+.insuranchomepage3 .footer_about{
+	
+	max-width: 288px;
+height: 166px;
+font-size: 14px;
+letter-spacing: 0px;
+line-height: 22px;
+color: #d6d6d6;
+font-family: Asap-Regular;
+text-align: left;
+}
+
+.insuranchomepage3 .left_footer {width: 50%;}
+
+.insuranchomepage3 .right_footer {width: 50%;}
+
+.insuranchomepage3 .footerconternt {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.insuranchomepage3 .btn-get {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    padding: 21px 22px;
+    background-color: #ffb500;
+    border-radius: 0;
+    margin-top: 20px;
+    display: block;
+    margin: 19px auto;
+}
+
+.insuranchomepage3 .footerright {
+    font-size: 14px;
+    letter-spacing: 1.59px;
+    color: #b9b9b9;
+    font-family: Asap-Regular;
+    text-align: center;
+
+}
+
+.insuranchomepage3 .copyrights {width: 100%;}
+
+.insuranchomepage3 .footer_section {
+   background-image: unset;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color:#151001;
+	position:relative;
+}
+
+.insuranchomepage3 .heads{
+	
+	position: absolute;
+    
+    top: -36px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 924px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+
+/*******************financehomepage3******/
+
+.financehomepage3 .contancts {
+    float: right;
+    width: 23.33%;
+}
+
+.financehomepage3 .head {background-color: #fff;}
+
+
+.financehomepage3 .callus {
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: #000;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-right: 56px;
+}
+
+.financehomepage3 .calus {
+    padding-left: 3px;
+    letter-spacing: 0.2px;
+	color:#000;
+}
+
+.financehomepage3 .malus {
+    padding-left: 4px;
+    letter-spacing: 0.5px;
+	color:#000;
+}
+
+.financehomepage3 .navbarhompagesecond {
+    background-color: #64c535;
+}
+
+.financehomepage3 .navgation {
+    background-color: #64c535;
+    margin-bottom: 0px;
+    border: 0px;
+    margin-top: 14px;
+}
+
+.financehomepage3 .nav>li>a:focus,.financehomepage3 .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #64c535;
+	color:#000;
+}
+
+
+.financehomepage3 .nav-item {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 6px;
+    color: #fff;
+    font-family: Asap-Regular;
+    text-align: left;
+}
+
+.financehomepage3 .nav>li>a {
+    padding: 8px 14px;
+}
+
+.financehomepage3 ul.nav.navbar-nav.navbar-right {
+    margin-top: 0px;
+}
+
+.financehomepage3 .socal_icon {
+    padding: 0;
+}
+
+.financehomepage3 li.socialmediaicons {
+    margin-right: 0px;
+}
+
+.financehomepage3 .navbar-nav {
+    float: left;
+    margin: 0;
+    margin-top: 9px;
+}
+
+.financehomepage3 .plan {
+    font-size: 50px;
+    letter-spacing: 2px;
+    line-height: 83px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: unset;
+    text-align: left;
+    max-width: 585px;
+}
+
+.financehomepage3 .subpara {
+    max-width: 459px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+}
+
+.financehomepage3 .btn-texts {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 24px 38px;
+    background-color: #64c535;
+    border: 0px;
+}
+
+.financehomepage3 .banner_text {
+    position: absolute;
+    float: left;
+    top: 17%;
+    right: unset;
+    background-color: rgba(122,164,170,0.7);
+    padding: 30px;
+}
+
+.financehomepage3 .welcome_bannner {
+    background-image: url(../image/finc_girlcirclevideo.png);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+    float: right;
+    border: 1px solid #333333;
+    top: 71px;
+    left: 0;
+}
+
+.financehomepage3 .btn_icons {
+    position: absolute;
+    top: 36%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.financehomepage3 .circles{
+	position: absolute;
+    top: 66px;
+    width: 70px;
+    height: 70px;
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    left: 85px;
+}
+.financehomepage3 .small_circles {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 34px;
+    height: 34px;
+    background-color: #f3f3f3;
+    border-radius: 50%;
+}
+.financehomepage3 .main_service{
+background-image:url(../image/finc_servicebanner3.jpg);
+background-repeat:no-repeat;
+height:456px;
+background-size:cover;
+
+margin-top:50px;
+}
+
+
+.financehomepage3 .business_head, .financehomepage3 .best_head {
+    font-size: 18px;
+    letter-spacing: 0.656px;
+    line-height: 29px;
+    color: #555555;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+.financehomepage3 .content {
+    max-width: 205px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 27px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.financehomepage3 .read_buttons {
+    padding-left: 0px;
+    text-align: center;
+}
+
+.financehomepage3 .service_head {
+    font-size: 30px;
+    letter-spacing: 0.8px;
+    line-height: 29px;
+    color: #fff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+}
+
+.financehomepage3 .client_say {
+    margin-top: 80px;background-color:#f3f3f3
+}
+
+.financehomepage3 .client_comment {
+    position: relative;
+    top: 0px;
+    width: 59%;
+    float: left;
+    border: 0;
+}
+.financehomepage3 .client_heads {
+    font-size: 32px;
+    letter-spacing: 0.px;
+    line-height: 26px;
+    color: #333333;
+    letter-spacing: 0.6px;
+    font-family: FiraSans-Bold;
+    text-align: left;
+}
+.financehomepage3 .client_img {
+    position: absolute;
+    top: 0px;
+    left: 26px;
+    width: 40.4%;
+}
+
+.financehomepage3 .insur_get {
+    background-image: url(../image/fin_callbacbanner3.jpg);
+    background-repeat: no-repeat;
+    height: 444px;
+    width: 508px;
+    background-size: cover;
+    margin-top: 0;
+    position: relative;
+    top: -96px;
+}
+
+.financehomepage3 form.form-horizontal {
+    text-align: center;
+    max-width: 266px;
+    margin: 18px auto;
+}
+
+.financehomepage3 .client_comment {
+    position: relative;
+    top: 0px;
+    width: 50%;
+    float: right;
+    border: 0;
+}
+
+.financehomepage3 .comment {
+    max-width: 661px;
+    margin: 27px auto;
+}
+.financehomepage3 li.items_sev {
+    width: 49%;
+    margin-bottom: 28px;
+}
+
+.financehomepage3 .time_sev {padding-left: 0px;}
+.financehomepage3  .team_sev {padding-left: 0px;}
+
+.financehomepage3 .form-group {margin-bottom: 31px;}
+
+.financehomepage3 .learn_buttons {
+    display: block;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.financehomepage3 .btn-send {
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    font-weight: bold;
+    text-align: center;
+    padding: 21px 71px;
+    background-color: #64c535;
+    border-radius: 0;
+}
+
+.financehomepage3 .empty_content {
+    max-width: 100%;
+    margin-bottom: 13.6%;
+}
+
+
+	/**** counter*****/
+.financehomepage3 .we_done {
+    background-image: url(../image/fincnumbercountbanner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    margin-top: 81px;
+}
+.financehomepage3 .para_done {
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    text-align: center;
+    max-width: 1164px;
+    margin: 0 auto;
+}
+.financehomepage3 .head_whatdone {
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 52px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: center;
+}
+.financehomepage3	.wedone_blog{margin-top: 50px;}
+.financehomepage3 .countersection{margin-top: 74px;}
+	
+	
+	.financehomepage3 .counter{
+		font-size: 40px;
+letter-spacing: 0.5px;
+line-height: 29px;
+color: #ffffff;
+font-family: Asap-Bold;
+font-weight: bold;
+text-align: center;margin-bottom: 43px;
+	}
+	.financehomepage3 .customer {
+    font-size: 26px;
+    letter-spacing: 0.5px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: Asap-Regular;
+    text-align: center;
+ 
+}
+	.financehomepage3 .report_content
+	{font-size: 36px;
+letter-spacing: 1px;
+line-height: 29px;
+color: #333333;
+font-family:FiraSans-Bold;
+font-weight: bold;
+text-align: left;
+		
+	}
+
+.financehomepage3  .our_project {
+    margin-top: 50px;
+}
+
+.financehomepage3 .ourserv_heads{font-size: 38px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #333333;
+font-family:FiraSans-Bold;
+text-align: left;}
+
+
+.financehomepage3  .our_img a:before {
+    content: "";
+    background-color: rgba(114,198,76,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+}
+
+.financehomepage3 .project_head {
+    font-size: 19px;
+    letter-spacing: 1px;
+    line-height: 33px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #fff;
+    word-spacing: -5px;
+}
+.financehomepage3 .ourserv_clent {
+    font-size: 38px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #fff;
+    font-family: FiraSans-Bold;
+    text-align: center;
+}
+
+.financehomepage3 .client_test{
+
+background-image: url(../image/finc_testimonialbanner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 421px;
+    margin-top: 81px;
+}
+
+.financehomepage3 .trext_content {
+    width: 1046px;
+    height: 65px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 26px;
+    color: #fefefe;
+    font-family: Asap-Regular;
+    text-align: center;
+    margin: 32px auto;
+}
+
+.financehomepage3 .clientname {
+font-size: 18px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #fefefe;
+font-family: Asap-Bold;
+font-weight: bold;
+text-align: center;}
+.financehomepage3 .testmen_img{margin:0 auto;}
+
+
+.financehomepage3 .testimonial{
+    margin-top: 27px;
+}
+
+.img_rects:nth-child(3) {
+    float: left;
+    margin-right: 26px;
+}
+
+.financehomepage3 .img_rect {
+    width: 23.5%;
+    margin-right: 25px;
+    float: left;
+}
+
+.financehomepage3 .img_rect:nth-child(4) {
+    float: right;
+    margin-right: 0;
+}
+
+
+.financehomepage3 .mea {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: #3a5266;
+    font-family: Asap-Regular;
+    text-align: justify;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+
+.financehomepage3 .finan {
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    line-height: 29px;
+    color: #444444;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 0px;
+    word-spacing: 0px;
+}
+
+.financehomepage3 .news_img a:before {
+    content: "";
+   
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0;
+    z-index: 99;
+    background-color: rgba(114,198,76,.8);
+}
+.financehomepage3 .news_img {
+    position: relative;
+}
+.financehomepage3 .img_rect:hover  .news_img :before
+{opacity:1; transition:0.4s ease-in;}
+
+.financehomepage3 .recent_news {
+    margin-top: 50px;
+}
+
+/***footer***/
+
+
+
+/****footer****/
+
+.financehomepage3 footer
+{background-image: url(../image/fin_footerbanner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+   margin-top: 60px;
+	
+}
+.financehomepage3 .footer_head {
+    font-size: 17px;
+    letter-spacing: 2.4px;
+    color: #ffffff;
+    font-family: FiraSans-Bold;
+    font-weight: bold;
+    text-align: left;
+}
+.financehomepage3 .contact_us {
+    width: 45%;
+    padding-left: 0px;
+}
+.financehomepage3 .about_my
+{
+	    width: 40%;
+}
+.financehomepage3 ul.footer_item {
+    margin-top: 21px;
+}
+ .financehomepage3 .about_content {
+    font-size: 14px;
+    letter-spacing: 0.26px;
+    line-height: 22px;
+    color: #d6d6d6;
+    font-family: Asap-Regular;
+    text-align: left;
+    
+    margin-top: 20px;
+    max-width: 188px;
+}
+ .financehomepage3 .nav_item {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    line-height: 15px;
+    color: #d6d6d6;
+    font-family: Asap-Regular;
+    text-align: left;
+    padding-left: 9px;
+}
+.financehomepage3 .footernav_item
+{
+	font-size: 14px;
+    letter-spacing: 1.5px;
+line-height: 15px;
+color: #d6d6d6;
+font-family: Asap-Regular;
+text-align: center;
+	display: inline-block;    padding: 10px 0px;
+}
+
+.financehomepage3 .footerright {
+    font-size: 14px;
+    letter-spacing: 1.53px;
+    line-height: 15px;
+    color: #d6d6d6;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-top: 20px;
+}
+.financehomepage3 .Subscribe {
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    line-height: 22px;
+    color: #d6d6d6;
+    font-family: Asap-Regular;
+    text-align: left;
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+.financehomepage3 .useful_link {
+    padding-left: 1px;
+    width: 42%;
+}
+.financehomepage3 .newletter {
+    width: 55%;
+}
+.financehomepage3 li.nav_list {margin-bottom: 10px;}
+.financehomepage3 .socials_icons {margin-top: 9px;}
+
+
+.financehomepage3  .footer_last {width: 36%;}
+.financehomepage3 li.footernav_item {margin-right: 22px;}
+.financehomepage3 li.footernav_item:nth-child(6){
+    
+    float: right;
+    margin-right: 0;
+}
+
+ .financehomepage3 #navlists {
+    position: relative;
+    left: 0;
+    top: 16px;
+    right: 0;
+    
+}
+
+.financehomepage3 #navlists li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+}
+.financehomepage3 #navlists li, #navlists a {
+    height: 16px;
+    display: block;
+}
+.financehomepage3 #facebook_icons {
+    left: 0px;
+    width: 30px;
+    background: url(../image/footer_social.png);
+    background-repeat: no-repeat;
+}
+.financehomepage3 #google-plus_icons {
+       left: 31px;
+    width: 30px;
+    background: url(../image/footer_social.png) -31px 0;
+    background-repeat: no-repeat;
+}
+.financehomepage3 #instagram_icons {
+   left: 80px;
+    width: 30px;
+    background: url(../image/footer_social.png) -80px 0;
+    background-repeat: no-repeat;
+}
+.financehomepage3 #twitter_icons {
+  left: 122px;
+    width: 30px;
+    background: url(../image/footer_social.png)-122px 0;
+    background-repeat: no-repeat;
+}
+
+.financehomepage3 #prinest_icons {
+           left: 156px;
+    width: 30px;
+    background: url(../image/footer_social.png) -156px 0;
+    background-repeat: no-repeat;
+}
+.financehomepage3 hr {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.financehomepage3 .mailid {padding-left: 15px;}
+.financehomepage3 .fax {padding-left: 16px;}
+.financehomepage3 .mobil {padding-left: 13px;}
+.financehomepage3 .loca {padding-left: 14px;}
+.financehomepage3 .btn-subs {
+    background-color: #64c535;
+    border: 0px;
+    border-radius: 0;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.9px;
+    line-height: 29px;
+    color: #ffffff;
+    font-family: Asap-Bold;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 24px;
+    margin-top: 20px;
+}
+.financehomepage3 input.form-control.email {
+    color: #131212;
+    background-color:#494c54;
+    height: 46px;
+    margin-bottom: 2px;
+}
+.financehomepage3 .copy_footer
+{
+	    width: 64%;
+}
+
+.financehomepage3 .footer {
+    background-image: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 306px;
+    margin-top: 0spx;
+}
+
+
+.financehomepage3 .left_footer {width: 50%;}
+.financehomepage3 .right_footer {width: 50%;}
+
+.last_footer{background-color:#000;}
